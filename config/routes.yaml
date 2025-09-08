@@ -1,0 +1,12 @@
+api_login:
+  path: /api/login
+
+register:
+    path: /api/register
+    controller: App\Controller\AuthController::register
+    methods: POST
+
+api_clothes_create:
+    path: /api/clothes
+    controller: App\Controller\ClothesController::create
+    methods: POST
