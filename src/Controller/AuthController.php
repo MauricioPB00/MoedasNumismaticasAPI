@@ -35,13 +35,15 @@ class AuthController extends ApiController
         $username = $request->get('username');
         $password = $request->get('password');
         $email = $request->get('email');
-        $permi = $request->get('permi');
+        $permi = 1;
         $cpf = $request->get('cpf');
         $rg = $request->get('rg');
         $datNasc = $request->get('datNasc');
-        $cidade = $request->get('cidade');
+        $city = $request->get('city');
+        $datCad = $request->get('datCad');
+        $number = $request->get('number');
 
-        if (empty($username) || empty($password) || empty($email)) {
+        if (empty($name) || empty($password) || empty($email) || empty($number)) {
             return $this->respondValidationError("Invalid Username or Password or Email");
         }
 
@@ -54,7 +56,9 @@ class AuthController extends ApiController
         $user->setCpf($cpf);
         $user->setRg($rg);
         $user->setDatNasc($datNasc);
-        $user->setCidade($cidade);
+        $user->setCity($city);
+        $user->setDatCad($datCad);
+        $user->setNumber($number);
 
         //dd($user);
         $this->em->persist($user);

@@ -483,7 +483,7 @@ ajustei no .env
 
                             DATABASE_DRIVER=pgsql
                             DATABASE_HOST=127.0.0.1
-                            DATABASE_NAME=controle
+                            DATABASE_NAME=Album
                             DATABASE_USER=postgres
                             DATABASE_PASSWORD=123
                             DATABASE_PORT=5432

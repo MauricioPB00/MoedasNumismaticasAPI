@@ -62,7 +62,17 @@ class User implements UserInterface
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
      */
-    private $cidade;
+    private $datCad;
+
+    /**
+     * @ORM\Column(type="string", length=255, nullable=true)
+     */
+    private $city;
+
+    /**
+     * @ORM\Column(type="string", length=255, nullable=true)
+     */
+    private $number;
 
     /**
      * @return string|null
@@ -184,14 +194,26 @@ class User implements UserInterface
         return $this;
     }
 
-    public function getCidade(): ?string
+    public function getCity(): ?string
     {
-        return $this->cidade;
+        return $this->city;
     }
 
-    public function setCidade(?string $cidade): self
+    public function setCity(?string $city): self
     {
-        $this->cidade = $cidade;
+        $this->city = $city;
+
+        return $this;
+    }
+
+    public function getDatCad(): ?string
+    {
+        return $this->datCad;
+    }
+
+    public function setDatCad(?string $datCad): self
+    {
+        $this->datCad = $datCad;
 
         return $this;
     }
