@@ -15,3 +15,8 @@ forgot_password:
     path: /api/forgot-password
     controller: App\Controller\AuthController::forgotPassword
     methods: POST
+
+reset-password:
+    path: /api/reset-password
+    controller: App\Controller\AuthController::resetPassword
+    methods: POST

@@ -104,11 +104,12 @@ class AuthController extends ApiController
         $resetUrl = "http://localhost:4200/reset-password?token=" . $token;
 
         $emailMessage = (new Email())
-            ->from('no-reply@meusite.com')
+            // ->from('no-reply@meusite.com')
+            ->from('albumnumismatico@gmail.com')
             ->to($email)
             ->subject('Redefinir sua senha')
             ->text("Clique no link para redefinir sua senha: " . $resetUrl);
-            
+
         // dump($resetUrl);
         // dump($emailMessage);
         $mailer->send($emailMessage);
