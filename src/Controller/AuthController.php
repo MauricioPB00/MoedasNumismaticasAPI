@@ -55,7 +55,7 @@ class AuthController extends ApiController
         $user->setRg($rg);
         $user->setDatNasc($datNasc);
         $user->setCity($city);
-        $user->setDatCad($datCad);
+        $user->setDatCad(new \DateTime());
         $user->setNumber($number);
 
         //dd($user);

@@ -55,7 +55,7 @@ class User implements UserInterface
     private $datNasc;
 
     /**
-     * @ORM\Column(type="string", length=255, nullable=true)
+     * @ORM\Column(type="datetime")
      */
     private $datCad;
 
@@ -91,7 +91,7 @@ class User implements UserInterface
     {
         return $this->getUserIdentifier(); // compatibilidade com interfaces antigas
     }
-    
+
     public function getPassword(): ?string
     {
         return $this->password;
@@ -197,18 +197,16 @@ class User implements UserInterface
         return $this;
     }
 
-    public function getDatCad(): ?string
+    public function getDatCad(): ?\DateTimeInterface
     {
         return $this->datCad;
     }
 
-    public function setDatCad(?string $datCad): self
+    public function setDatCad(\DateTimeInterface $datCad): self
     {
         $this->datCad = $datCad;
-
         return $this;
     }
-
 
     public function getNumber(): ?string
     {
