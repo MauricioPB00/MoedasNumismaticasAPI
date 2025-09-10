@@ -22,11 +22,6 @@ class User implements UserInterface
     /**
      * @ORM\Column(type="string", length=255)
      */
-    private $username;
-
-    /**
-     * @ORM\Column(type="string", length=255)
-     */
     private $password;
 
     /**
@@ -87,18 +82,16 @@ class User implements UserInterface
         return $this->id;
     }
 
-    public function getUsername(): ?string
+    public function getUserIdentifier(): string
     {
-        return $this->username;
+        return (string) $this->email;  // email é o identificador do login
     }
 
-    public function setUsername(string $username): self
+    public function getUsername(): string
     {
-        $this->username = $username;
-
-        return $this;
+        return $this->getUserIdentifier(); // compatibilidade com interfaces antigas
     }
-
+    
     public function getPassword(): ?string
     {
         return $this->password;
@@ -130,9 +123,7 @@ class User implements UserInterface
         return array('ROLE_USER');
     }
 
-    public function eraseCredentials()
-    {
-    }
+    public function eraseCredentials() {}
 
     public function getPermi(): ?string
     {
@@ -214,6 +205,19 @@ class User implements UserInterface
     public function setDatCad(?string $datCad): self
     {
         $this->datCad = $datCad;
+
+        return $this;
+    }
+
+
+    public function getNumber(): ?string
+    {
+        return $this->number;
+    }
+
+    public function setNumber(?string $number): self
+    {
+        $this->number = $number;
 
         return $this;
     }

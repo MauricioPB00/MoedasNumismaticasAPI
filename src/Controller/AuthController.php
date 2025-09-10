@@ -32,7 +32,6 @@ class AuthController extends ApiController
     {
         $request = $this->transformJsonBody($request);
         $name = $request->get('name');
-        $username = $request->get('username');
         $password = $request->get('password');
         $email = $request->get('email');
         $permi = 1;
@@ -44,13 +43,12 @@ class AuthController extends ApiController
         $number = $request->get('number');
 
         if (empty($name) || empty($password) || empty($email) || empty($number)) {
-            return $this->respondValidationError("Invalid Username or Password or Email");
+            return $this->respondValidationError("Invalid Name or Password or Email");
         }
 
-        $user = new User($username);
+        $user = new User();
         $user->setPassword($encoder->encodePassword($user, $password));
         $user->setEmail($email);
-        $user->setUsername($username);
         $user->setPermi($permi);
         $user->setName($name);
         $user->setCpf($cpf);
