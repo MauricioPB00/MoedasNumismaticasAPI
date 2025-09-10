@@ -10,3 +10,8 @@ api_clothes_create:
     path: /api/clothes
     controller: App\Controller\ClothesController::create
     methods: POST
+
+forgot_password:
+    path: /api/forgot-password
+    controller: App\Controller\AuthController::forgotPassword
+    methods: POST
