@@ -593,3 +593,11 @@ ajustar caminho da foto cadastro no service.yaml
 linha 7
 parameters:
     upload_dir: 'C:\Users\mau_p\Documents\ControleDeEstoque\routing-controleEstoque\src\img'
+
+
+
+
+composer require symfony/mailer
+composer require symfony/google-mailer
+composer require symfony/amazon-mailer
+composer require symfony/postmark-mailer

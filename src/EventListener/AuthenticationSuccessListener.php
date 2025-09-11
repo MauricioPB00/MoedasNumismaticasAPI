@@ -37,6 +37,7 @@ public function onAuthenticationSuccessResponse(AuthenticationSuccessEvent $even
     $data['name'] = $event->getUser()->getName();
     $data['id'] = $event->getUser()->getId();
     $data['nome'] = $event->getUser()->getName();
+    $data['email'] = $event->getUser()->getEmail();
 
  
     $event->setData($data);

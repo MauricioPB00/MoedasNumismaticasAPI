@@ -15,14 +15,17 @@ use Symfony\Component\Security\Core\User\UserInterface;
 use App\Entity\PasswordReset;
 use Symfony\Component\Mime\Email;
 use Symfony\Component\Mailer\MailerInterface;
+use Psr\Log\LoggerInterface;
 
 class AuthController extends ApiController
 {
     private $em;
+    private JWTTokenManagerInterface $jwtManager;
 
-    public function __construct(EntityManagerInterface $em)
+    public function __construct(EntityManagerInterface $em, JWTTokenManagerInterface $jwtManager)
     {
         $this->em = $em;
+        $this->jwtManager = $jwtManager;
     }
 
     /**
@@ -70,13 +73,63 @@ class AuthController extends ApiController
     }
 
 
+    /**
+     * @Route("/update", name="update", methods={"PUT"})
+     */
+    public function update(Request $request, EntityManagerInterface $em, UserPasswordEncoderInterface $encoder, LoggerInterface $logger, JWTTokenManagerInterface $jwtManager): JsonResponse
+    {
+        // Pega o usuário autenticado pelo JWT
+        /** @var User $user */
+        // $user = $this->getUser();
+        // if (!$user) {
+        //     return $this->json(['error' => 'Usuário não autenticado'], 401);
+        // }
+
+
+        $user = $this->getUser();
+        if (!$user) {
+            $logger->warning('Usuário não autenticado. JWT recebido: ' . $request->headers->get('Authorization'));
+            return $this->json(['error' => 'Usuário não autenticado'], 401);
+        }
+
+
+        // Decodifica o JSON enviado pelo front
+        $data = json_decode($request->getContent(), true);
+
+        // Atualiza campos permitidos
+        if (!empty($data['name'])) $user->setName($data['name']);
+        if (!empty($data['email'])) $user->setEmail($data['email']);
+        if (!empty($data['cpf'])) $user->setCpf($data['cpf']);
+        if (!empty($data['rg'])) $user->setRg($data['rg']);
+        if (!empty($data['datNasc'])) $user->setDatNasc($data['datNasc']); // se for string, pode converter para DateTime
+        if (!empty($data['city'])) $user->setCity($data['city']);
+        if (!empty($data['number'])) $user->setNumber($data['number']);
+
+        // // Atualiza senha apenas se fornecida
+        // if (!empty($data['password'])) {
+        //     $user->setPassword($encoder->encodePassword($user, $data['password']));
+        // }
+
+        $em->persist($user);
+        $em->flush();
+
+        $token = $jwtManager->create($user); // se estiver usando LexikJWTAuthenticationBundle
+        return $this->json([
+            'message' => 'Dados atualizados com sucesso',
+            'token' => $token
+        ]);
+
+        return $this->json(['message' => 'Dados atualizados com sucesso']);
+    }
+
+
 
     /**
      * @Route("/forgot-password", name="forgot_password", methods={"POST"})
      */
     public function forgotPassword(Request $request, EntityManagerInterface $em, MailerInterface $mailer): JsonResponse
     {
-        
+
         $email = $request->toArray()['email'] ?? null;
         if (!$email) {
             return $this->json(['error' => 'E-mail é obrigatório'], 400);

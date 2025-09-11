@@ -26,10 +26,8 @@ security:
         api:
             pattern:   ^/api
             stateless: true
-            provider: app_user_provider
-            guard:
-                authenticators:
-                    - lexik_jwt_authentication.jwt_token_authenticator
+            jwt: ~
+            
         dev:
             pattern: ^/(_(profiler|wdt)|css|images|js)/
             security: false
@@ -52,9 +50,9 @@ security:
         # - { path: ^/profile, roles: ROLE_USER }
         - { path: ^/api/reset-password, roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/api/forgot-password, roles: IS_AUTHENTICATED_ANONYMOUSLY }
-        - { path: ^/api/clothes, roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/api/register, roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/api/login, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/api/update, roles: IS_AUTHENTICATED_FULLY }
         - { path: ^/api,       roles: IS_AUTHENTICATED_FULLY }
 
 when@test:

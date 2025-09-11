@@ -6,11 +6,6 @@ register:
     controller: App\Controller\AuthController::register
     methods: POST
 
-api_clothes_create:
-    path: /api/clothes
-    controller: App\Controller\ClothesController::create
-    methods: POST
-
 forgot_password:
     path: /api/forgot-password
     controller: App\Controller\AuthController::forgotPassword
@@ -20,3 +15,8 @@ reset-password:
     path: /api/reset-password
     controller: App\Controller\AuthController::resetPassword
     methods: POST
+
+update:
+    path: /api/update
+    controller: App\Controller\AuthController::update
+    methods: PUT
