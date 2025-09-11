@@ -203,4 +203,28 @@ class AuthController extends ApiController
 
         return $this->json(['message' => 'Senha redefinida com sucesso']);
     }
+
+
+
+    /**
+     * @Route("/photo", name="photo", methods={"POST"})
+     */
+    public function uploadPhoto(Request $request, EntityManagerInterface $em): JsonResponse
+    {
+         /** @var User $user */
+        $user = $this->getUser(); // pegar usuário logado
+
+        $file = $request->files->get('photo');
+        if (!$file) {
+            return $this->json(['error' => 'Nenhum arquivo enviado'], 400);
+        }
+
+        $filename = uniqid() . '.' . $file->guessExtension();
+        $file->move($this->getParameter('user_photos_dir'), $filename);
+
+        $user->setPhoto($filename);
+        $em->flush();
+
+        return $this->json(['success' => true, 'photo' => $filename]);
+    }
 }

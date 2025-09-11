@@ -70,6 +70,11 @@ class User implements UserInterface
     private $number;
 
     /**
+     * @ORM\Column(type="string", length=255, nullable=true)
+     */
+    private ?string $photo = null;
+
+    /**
      * @return string|null
      */
     public function getSalt(): ?string
@@ -217,6 +222,18 @@ class User implements UserInterface
     {
         $this->number = $number;
 
+        return $this;
+    }
+
+    public function getPhoto(): ?string
+    {
+        return $this->photo;
+    }
+
+    public function setPhoto(?string $photo): self
+    {
+        $this->photo = $photo;
+        
         return $this;
     }
 }

@@ -52,6 +52,7 @@ security:
         - { path: ^/api/forgot-password, roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/api/register, roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/api/login, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/api/photo, roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/api/update, roles: IS_AUTHENTICATED_FULLY }
         - { path: ^/api,       roles: IS_AUTHENTICATED_FULLY }
 

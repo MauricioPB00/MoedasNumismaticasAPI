@@ -20,3 +20,8 @@ update:
     path: /api/update
     controller: App\Controller\AuthController::update
     methods: PUT
+
+photo:
+    path: /api/photo
+    controller: App\Controller\AuthController::uploadPhoto
+    methods: POST
