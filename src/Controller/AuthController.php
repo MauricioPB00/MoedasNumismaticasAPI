@@ -63,6 +63,7 @@ class AuthController extends ApiController
         $user->setCity($city);
         $user->setDatCad(new \DateTime());
         $user->setNumber($number);
+        $user->setPhoto('68c4317b07cb1.png');
 
         //dd($user);
         $this->em->persist($user);
@@ -85,13 +86,11 @@ class AuthController extends ApiController
         //     return $this->json(['error' => 'Usuário não autenticado'], 401);
         // }
 
-
         $user = $this->getUser();
         if (!$user) {
             $logger->warning('Usuário não autenticado. JWT recebido: ' . $request->headers->get('Authorization'));
             return $this->json(['error' => 'Usuário não autenticado'], 401);
         }
-
 
         // Decodifica o JSON enviado pelo front
         $data = json_decode($request->getContent(), true);
@@ -105,7 +104,7 @@ class AuthController extends ApiController
         if (!empty($data['city'])) $user->setCity($data['city']);
         if (!empty($data['number'])) $user->setNumber($data['number']);
 
-        // // Atualiza senha apenas se fornecida
+        // // Atualiza senha
         // if (!empty($data['password'])) {
         //     $user->setPassword($encoder->encodePassword($user, $data['password']));
         // }
@@ -211,7 +210,7 @@ class AuthController extends ApiController
      */
     public function uploadPhoto(Request $request, EntityManagerInterface $em): JsonResponse
     {
-         /** @var User $user */
+        /** @var User $user */
         $user = $this->getUser(); // pegar usuário logado
 
         $file = $request->files->get('photo');
@@ -226,5 +225,30 @@ class AuthController extends ApiController
         $em->flush();
 
         return $this->json(['success' => true, 'photo' => $filename]);
+    }
+
+
+    /**
+     * @Route("/informacao", name="informacao", methods={"GET"})
+     */
+    public function informacao(): JsonResponse
+    {
+        /** @var User $user */
+        $user = $this->getUser(); // pegar usuário logado
+
+        if (!$user) {
+            return $this->json(['error' => 'Usuário não autenticado'], 401);
+        }
+
+        return $this->json([
+            'id'     => $user->getId(),
+            'email'  => $user->getEmail(),
+            'name'   => $user->getName(),
+            'cpf'    => $user->getCpf(),
+            'rg'     => $user->getRg(),
+            'city'   => $user->getCity(),
+            'number' => $user->getNumber(),
+            'photo'  => $user->getPhoto(),
+        ]);
     }
 }

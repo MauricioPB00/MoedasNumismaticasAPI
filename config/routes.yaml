@@ -25,3 +25,8 @@ photo:
     path: /api/photo
     controller: App\Controller\AuthController::uploadPhoto
     methods: POST
+
+informacao:
+    path: /api/informacao
+    controller: App\Controller\AuthController::informacao
+    methods: GET
