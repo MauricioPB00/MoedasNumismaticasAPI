@@ -226,29 +226,4 @@ class AuthController extends ApiController
 
         return $this->json(['success' => true, 'photo' => $filename]);
     }
-
-
-    /**
-     * @Route("/informacao", name="informacao", methods={"GET"})
-     */
-    public function informacao(): JsonResponse
-    {
-        /** @var User $user */
-        $user = $this->getUser(); // pegar usuário logado
-
-        if (!$user) {
-            return $this->json(['error' => 'Usuário não autenticado'], 401);
-        }
-
-        return $this->json([
-            'id'     => $user->getId(),
-            'email'  => $user->getEmail(),
-            'name'   => $user->getName(),
-            'cpf'    => $user->getCpf(),
-            'rg'     => $user->getRg(),
-            'city'   => $user->getCity(),
-            'number' => $user->getNumber(),
-            'photo'  => $user->getPhoto(),
-        ]);
-    }
 }
