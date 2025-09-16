@@ -1,0 +1,5959 @@
+[
+  {
+    "id": 7052,
+    "title": "10 Centavos (magnetic)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1974,
+    "max_year": 1979,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c53c8b6146.68178810-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c53d5cc616.49835100-180.jpg"
+  },
+  {
+    "id": 109110,
+    "title": "10 Centavos (Trial)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1979,
+    "max_year": 1980,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6417195e562d43.78862694-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6417195ef020a2.27797969-180.jpg"
+  },
+  {
+    "id": 1016,
+    "title": "20 Centavos (non magnetic)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1967,
+    "max_year": 1970,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/67de05ecc0bb12.45497009-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/67de05ed4bab95.40250556-180.jpg"
+  },
+  {
+    "id": 8850,
+    "title": "20 Centavos (magnetic)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1975,
+    "max_year": 1979,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c5a63b0c64.49905742-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c5a748ce36.12129654-180.jpg"
+  },
+  {
+    "id": 8851,
+    "title": "50 Centavos",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1967,
+    "max_year": 1967,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c608b06143.58194670-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c609a34dc6.28787804-180.jpg"
+  },
+  {
+    "id": 1050,
+    "title": "50 Centavos (Non-magnetic)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1970,
+    "max_year": 1975,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c635097211.75240517-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c635c14293.13751473-180.jpg"
+  },
+  {
+    "id": 359431,
+    "title": "50 Centavos (Trial)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1975,
+    "max_year": 1975,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6416f285d046a7.13863416-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6416f286e0de20.58889172-180.jpg"
+  },
+  {
+    "id": 5382,
+    "title": "50 Centavos (magnetic)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1975,
+    "max_year": 1979,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c66d718423.78817236-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c66e6dea62.48129708-180.jpg"
+  },
+  {
+    "id": 109111,
+    "title": "50 Centavos (Trial)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1979,
+    "max_year": 1980,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64171946d4ed47.91712504-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64171947ef38f9.25135984-180.jpg"
+  },
+  {
+    "id": 2248,
+    "title": "1 Cruzeiro",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1967,
+    "max_year": 1970,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2834-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2835-180.jpg"
+  },
+  {
+    "id": 7725,
+    "title": "1 Cruzeiro (150th Anniversary of Independence)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1972,
+    "max_year": 1972,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/60ba499be451c0.55226992-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/60ba499cb56164.69920025-180.jpg"
+  },
+  {
+    "id": 359430,
+    "title": "1 Cruzeiro (Trial)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1974,
+    "max_year": 1974,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6416f1e08ecbb4.36474793-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6416f1e1c77df3.37741958-180.jpg"
+  },
+  {
+    "id": 8852,
+    "title": "1 Cruzeiro",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1974,
+    "max_year": 1978,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c6e72025f4.54554881-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c6e827ec72.30443646-180.jpg"
+  },
+  {
+    "id": 356988,
+    "title": "1 Cruzeiro (Trial)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1979,
+    "max_year": 1981,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6799d16a668621.02629818-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6799d16b2dbdf9.71896509-180.jpg"
+  },
+  {
+    "id": 2247,
+    "title": "1 Cruzeiro",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1979,
+    "max_year": 1984,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/27-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/28-180.jpg"
+  },
+  {
+    "id": 10244,
+    "title": "1 Cruzeiro (FAO)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1985,
+    "max_year": 1985,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/627bfe8b77a174.67858529-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/627bfe8baf2717.06089490-180.jpg"
+  },
+  {
+    "id": 236586,
+    "title": "5 Cruzeiros 1980 (Trial)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1979,
+    "max_year": 1981,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63f7d8d1dfe6b9.02597168-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63f7d8d3357df9.98738664-180.jpg"
+  },
+  {
+    "id": 2576,
+    "title": "5 Cruzeiros",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1980,
+    "max_year": 1984,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/441-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/443-180.jpg"
+  },
+  {
+    "id": 16637,
+    "title": "5 Cruzeiros (FAO)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1985,
+    "max_year": 1985,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63a07393705834.01904617-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63a07394112849.34715524-180.jpg"
+  },
+  {
+    "id": 33393,
+    "title": "10 Cruzeiros (10th Anniversary of Central Bank)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1975,
+    "max_year": 1975,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/987-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/988-180.jpg"
+  },
+  {
+    "id": 359158,
+    "title": "10 Cruzeiros - PROVA (10th Anniversary of Central Bank)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1975,
+    "max_year": 1975,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/641348cb261b06.77869269-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/641348cbc2a776.27871128-180.jpg"
+  },
+  {
+    "id": 310661,
+    "title": "10 Cruzeiros 1980 (Trial)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1979,
+    "max_year": 1980,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63f7d8113b0874.25833409-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/618af2cd082335.72741327-180.jpg"
+  },
+  {
+    "id": 2241,
+    "title": "10 Cruzeiros (Brazil's main roads)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1980,
+    "max_year": 1986,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/11-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/12-180.jpg"
+  },
+  {
+    "id": 14499,
+    "title": "20 Cruzeiros (150th Anniversary of Independence)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1972,
+    "max_year": 1972,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/609-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/608-180.jpg"
+  },
+  {
+    "id": 156144,
+    "title": "20 Cruzeiros (150th Anniversary of Independence - Prova)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1972,
+    "max_year": 1972,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2836-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2837-180.jpg"
+  },
+  {
+    "id": 5385,
+    "title": "20 Cruzeiros",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1981,
+    "max_year": 1986,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2832-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2833-180.jpg"
+  },
+  {
+    "id": 2246,
+    "title": "50 Cruzeiros",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1981,
+    "max_year": 1986,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/23-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/24-180.jpg"
+  },
+  {
+    "id": 359201,
+    "title": "100 Cruzeiros (Trial)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1985,
+    "max_year": 1985,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/641399a86c86f1.20926194-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/641399a9105644.64193744-180.jpg"
+  },
+  {
+    "id": 4052,
+    "title": "100 Cruzeiros",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1985,
+    "max_year": 1986,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2824-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2825-180.jpg"
+  },
+  {
+    "id": 359202,
+    "title": "200 Cruzeiros (Trial)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1985,
+    "max_year": 1985,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64139a4ae79299.08011663-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64139a4bad5777.55093061-180.jpg"
+  },
+  {
+    "id": 10252,
+    "title": "200 Cruzeiros",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1985,
+    "max_year": 1986,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/5e35fa0598b194.69432924-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/5e35fa06795991.51348797-180.jpg"
+  },
+  {
+    "id": 36140,
+    "title": "300 Cruzeiros (150th Anniversary of Independence)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1972,
+    "max_year": 1972,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1061-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1062-180.jpg"
+  },
+  {
+    "id": 156145,
+    "title": "300 Cruzeiros (150th Anniversary of Independence - Prova)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1972,
+    "max_year": 1972,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2557-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2558-180.jpg"
+  },
+  {
+    "id": 5386,
+    "title": "500 Cruzeiros",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1985,
+    "max_year": 1986,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2488-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2489-180.jpg"
+  },
+  {
+    "id": 5387,
+    "title": "1 Centavo",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1986,
+    "max_year": 1988,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2526-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2527-180.jpg"
+  },
+  {
+    "id": 3759,
+    "title": "5 Centavos",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1986,
+    "max_year": 1988,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2822-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2823-180.jpg"
+  },
+  {
+    "id": 445638,
+    "title": "10 Centavos (Trial)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1986,
+    "max_year": 1987,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/675caed354a311.10549657-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/675caed3bda605.03337804-180.jpg"
+  },
+  {
+    "id": 4051,
+    "title": "10 Centavos",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1986,
+    "max_year": 1988,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2524-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2525-180.jpg"
+  },
+  {
+    "id": 5389,
+    "title": "20 Centavos",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1986,
+    "max_year": 1988,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1963-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1964-180.jpg"
+  },
+  {
+    "id": 3758,
+    "title": "50 Centavos",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1986,
+    "max_year": 1988,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2522-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2523-180.jpg"
+  },
+  {
+    "id": 3509,
+    "title": "1 Cruzado",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1986,
+    "max_year": 1988,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/646d3faa013c00.73866383-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/646d3fab3968d3.94939467-180.jpg"
+  },
+  {
+    "id": 4696,
+    "title": "5 Cruzados",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1986,
+    "max_year": 1988,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2490-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2491-180.jpg"
+  },
+  {
+    "id": 3538,
+    "title": "10 Cruzados",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1987,
+    "max_year": 1988,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/407-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/408-180.jpg"
+  },
+  {
+    "id": 359265,
+    "title": "100 Cruzados (Trial; Abolition of Slavery, man)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1988,
+    "max_year": 1988,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64147b233d0ad5.80916890-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64147b24166ab2.06920843-180.jpg"
+  },
+  {
+    "id": 359266,
+    "title": "100 Cruzados (Trial; Abolition of Slavery, woman)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1988,
+    "max_year": 1988,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64147b6c706cf5.82051541-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64147b6db1ff83.48871286-180.jpg"
+  },
+  {
+    "id": 359268,
+    "title": "100 Cruzados (Trial; Abolition of Slavery, child)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1988,
+    "max_year": 1988,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64147bc359b668.85913658-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64147bc4952745.80575683-180.jpg"
+  },
+  {
+    "id": 15375,
+    "title": "100 Cruzados (Abolition of Slavery, man)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1988,
+    "max_year": 1988,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63bd989ca17995.42482611-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63bd989d0bea42.34314660-180.jpg"
+  },
+  {
+    "id": 14501,
+    "title": "100 Cruzados (Abolition of Slavery, woman)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1988,
+    "max_year": 1988,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63bd98f5be29f8.26459719-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63bd98f617d665.75418252-180.jpg"
+  },
+  {
+    "id": 14502,
+    "title": "100 Cruzados (Abolition of Slavery, child)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1988,
+    "max_year": 1988,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63bd9941ab95b3.84768573-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63bd99420bafa4.56234218-180.jpg"
+  },
+  {
+    "id": 6335,
+    "title": "1 Centavo (Cowboy)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1989,
+    "max_year": 1990,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2509-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2508-180.jpg"
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "id": 7052,
+    "title": "10 Centavos (magnetic)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1974,
+    "max_year": 1979,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c53c8b6146.68178810-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c53d5cc616.49835100-180.jpg"
+  },
+  {
+    "id": 109110,
+    "title": "10 Centavos (Trial)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1979,
+    "max_year": 1980,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6417195e562d43.78862694-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6417195ef020a2.27797969-180.jpg"
+  },
+  {
+    "id": 1016,
+    "title": "20 Centavos (non magnetic)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1967,
+    "max_year": 1970,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/67de05ecc0bb12.45497009-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/67de05ed4bab95.40250556-180.jpg"
+  },
+  {
+    "id": 8850,
+    "title": "20 Centavos (magnetic)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1975,
+    "max_year": 1979,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c5a63b0c64.49905742-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c5a748ce36.12129654-180.jpg"
+  },
+  {
+    "id": 8851,
+    "title": "50 Centavos",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1967,
+    "max_year": 1967,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c608b06143.58194670-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c609a34dc6.28787804-180.jpg"
+  },
+  {
+    "id": 1050,
+    "title": "50 Centavos (Non-magnetic)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1970,
+    "max_year": 1975,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c635097211.75240517-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c635c14293.13751473-180.jpg"
+  },
+  {
+    "id": 359431,
+    "title": "50 Centavos (Trial)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1975,
+    "max_year": 1975,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6416f285d046a7.13863416-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6416f286e0de20.58889172-180.jpg"
+  },
+  {
+    "id": 5382,
+    "title": "50 Centavos (magnetic)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1975,
+    "max_year": 1979,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c66d718423.78817236-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c66e6dea62.48129708-180.jpg"
+  },
+  {
+    "id": 109111,
+    "title": "50 Centavos (Trial)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1979,
+    "max_year": 1980,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64171946d4ed47.91712504-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64171947ef38f9.25135984-180.jpg"
+  },
+  {
+    "id": 2248,
+    "title": "1 Cruzeiro",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1967,
+    "max_year": 1970,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2834-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2835-180.jpg"
+  },
+  {
+    "id": 7725,
+    "title": "1 Cruzeiro (150th Anniversary of Independence)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1972,
+    "max_year": 1972,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/60ba499be451c0.55226992-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/60ba499cb56164.69920025-180.jpg"
+  },
+  {
+    "id": 359430,
+    "title": "1 Cruzeiro (Trial)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1974,
+    "max_year": 1974,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6416f1e08ecbb4.36474793-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6416f1e1c77df3.37741958-180.jpg"
+  },
+  {
+    "id": 8852,
+    "title": "1 Cruzeiro",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1974,
+    "max_year": 1978,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c6e72025f4.54554881-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c6e827ec72.30443646-180.jpg"
+  },
+  {
+    "id": 356988,
+    "title": "1 Cruzeiro (Trial)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1979,
+    "max_year": 1981,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6799d16a668621.02629818-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6799d16b2dbdf9.71896509-180.jpg"
+  },
+  {
+    "id": 2247,
+    "title": "1 Cruzeiro",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1979,
+    "max_year": 1984,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/27-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/28-180.jpg"
+  },
+  {
+    "id": 10244,
+    "title": "1 Cruzeiro (FAO)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1985,
+    "max_year": 1985,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/627bfe8b77a174.67858529-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/627bfe8baf2717.06089490-180.jpg"
+  },
+  {
+    "id": 236586,
+    "title": "5 Cruzeiros 1980 (Trial)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1979,
+    "max_year": 1981,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63f7d8d1dfe6b9.02597168-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63f7d8d3357df9.98738664-180.jpg"
+  },
+  {
+    "id": 2576,
+    "title": "5 Cruzeiros",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1980,
+    "max_year": 1984,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/441-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/443-180.jpg"
+  },
+  {
+    "id": 16637,
+    "title": "5 Cruzeiros (FAO)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1985,
+    "max_year": 1985,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63a07393705834.01904617-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63a07394112849.34715524-180.jpg"
+  },
+  {
+    "id": 33393,
+    "title": "10 Cruzeiros (10th Anniversary of Central Bank)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1975,
+    "max_year": 1975,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/987-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/988-180.jpg"
+  },
+  {
+    "id": 359158,
+    "title": "10 Cruzeiros - PROVA (10th Anniversary of Central Bank)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1975,
+    "max_year": 1975,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/641348cb261b06.77869269-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/641348cbc2a776.27871128-180.jpg"
+  },
+  {
+    "id": 310661,
+    "title": "10 Cruzeiros 1980 (Trial)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1979,
+    "max_year": 1980,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63f7d8113b0874.25833409-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/618af2cd082335.72741327-180.jpg"
+  },
+  {
+    "id": 2241,
+    "title": "10 Cruzeiros (Brazil's main roads)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1980,
+    "max_year": 1986,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/11-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/12-180.jpg"
+  },
+  {
+    "id": 14499,
+    "title": "20 Cruzeiros (150th Anniversary of Independence)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1972,
+    "max_year": 1972,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/609-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/608-180.jpg"
+  },
+  {
+    "id": 156144,
+    "title": "20 Cruzeiros (150th Anniversary of Independence - Prova)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1972,
+    "max_year": 1972,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2836-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2837-180.jpg"
+  },
+  {
+    "id": 5385,
+    "title": "20 Cruzeiros",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1981,
+    "max_year": 1986,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2832-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2833-180.jpg"
+  },
+  {
+    "id": 2246,
+    "title": "50 Cruzeiros",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1981,
+    "max_year": 1986,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/23-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/24-180.jpg"
+  },
+  {
+    "id": 359201,
+    "title": "100 Cruzeiros (Trial)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1985,
+    "max_year": 1985,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/641399a86c86f1.20926194-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/641399a9105644.64193744-180.jpg"
+  },
+  {
+    "id": 4052,
+    "title": "100 Cruzeiros",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1985,
+    "max_year": 1986,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2824-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2825-180.jpg"
+  },
+  {
+    "id": 359202,
+    "title": "200 Cruzeiros (Trial)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1985,
+    "max_year": 1985,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64139a4ae79299.08011663-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64139a4bad5777.55093061-180.jpg"
+  },
+  {
+    "id": 10252,
+    "title": "200 Cruzeiros",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1985,
+    "max_year": 1986,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/5e35fa0598b194.69432924-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/5e35fa06795991.51348797-180.jpg"
+  },
+  {
+    "id": 36140,
+    "title": "300 Cruzeiros (150th Anniversary of Independence)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1972,
+    "max_year": 1972,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1061-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1062-180.jpg"
+  },
+  {
+    "id": 156145,
+    "title": "300 Cruzeiros (150th Anniversary of Independence - Prova)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1972,
+    "max_year": 1972,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2557-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2558-180.jpg"
+  },
+  {
+    "id": 5386,
+    "title": "500 Cruzeiros",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1985,
+    "max_year": 1986,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2488-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2489-180.jpg"
+  },
+  {
+    "id": 5387,
+    "title": "1 Centavo",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1986,
+    "max_year": 1988,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2526-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2527-180.jpg"
+  },
+  {
+    "id": 3759,
+    "title": "5 Centavos",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1986,
+    "max_year": 1988,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2822-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2823-180.jpg"
+  },
+  {
+    "id": 445638,
+    "title": "10 Centavos (Trial)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1986,
+    "max_year": 1987,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/675caed354a311.10549657-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/675caed3bda605.03337804-180.jpg"
+  },
+  {
+    "id": 4051,
+    "title": "10 Centavos",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1986,
+    "max_year": 1988,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2524-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2525-180.jpg"
+  },
+  {
+    "id": 5389,
+    "title": "20 Centavos",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1986,
+    "max_year": 1988,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1963-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1964-180.jpg"
+  },
+  {
+    "id": 3758,
+    "title": "50 Centavos",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1986,
+    "max_year": 1988,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2522-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2523-180.jpg"
+  },
+  {
+    "id": 3509,
+    "title": "1 Cruzado",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1986,
+    "max_year": 1988,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/646d3faa013c00.73866383-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/646d3fab3968d3.94939467-180.jpg"
+  },
+  {
+    "id": 4696,
+    "title": "5 Cruzados",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1986,
+    "max_year": 1988,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2490-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2491-180.jpg"
+  },
+  {
+    "id": 3538,
+    "title": "10 Cruzados",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1987,
+    "max_year": 1988,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/407-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/408-180.jpg"
+  },
+  {
+    "id": 359265,
+    "title": "100 Cruzados (Trial; Abolition of Slavery, man)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1988,
+    "max_year": 1988,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64147b233d0ad5.80916890-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64147b24166ab2.06920843-180.jpg"
+  },
+  {
+    "id": 359266,
+    "title": "100 Cruzados (Trial; Abolition of Slavery, woman)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1988,
+    "max_year": 1988,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64147b6c706cf5.82051541-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64147b6db1ff83.48871286-180.jpg"
+  },
+  {
+    "id": 359268,
+    "title": "100 Cruzados (Trial; Abolition of Slavery, child)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1988,
+    "max_year": 1988,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64147bc359b668.85913658-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64147bc4952745.80575683-180.jpg"
+  },
+  {
+    "id": 15375,
+    "title": "100 Cruzados (Abolition of Slavery, man)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1988,
+    "max_year": 1988,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63bd989ca17995.42482611-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63bd989d0bea42.34314660-180.jpg"
+  },
+  {
+    "id": 14501,
+    "title": "100 Cruzados (Abolition of Slavery, woman)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1988,
+    "max_year": 1988,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63bd98f5be29f8.26459719-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63bd98f617d665.75418252-180.jpg"
+  },
+  {
+    "id": 14502,
+    "title": "100 Cruzados (Abolition of Slavery, child)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1988,
+    "max_year": 1988,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63bd9941ab95b3.84768573-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63bd99420bafa4.56234218-180.jpg"
+  },
+  {
+    "id": 6335,
+    "title": "1 Centavo (Cowboy)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1989,
+    "max_year": 1990,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2509-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2508-180.jpg"
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "id": 36194,
+    "title": "10 000 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1833,
+    "max_year": 1840,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1093-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1094-180.jpg"
+  },
+  {
+    "id": 36170,
+    "title": "10 000 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1841,
+    "max_year": 1848,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1083-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1084-180.jpg"
+  },
+  {
+    "id": 36147,
+    "title": "10 000 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1849,
+    "max_year": 1851,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1075-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1076-180.jpg"
+  },
+  {
+    "id": 36145,
+    "title": "10 000 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1853,
+    "max_year": 1889,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1071-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1072-180.jpg"
+  },
+  {
+    "id": 370527,
+    "title": "10 000 Réis - Pedro II (Pattern)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1888,
+    "max_year": 1888,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64a1b3c7725570.53734308-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64a1b3c8169167.60602911-180.jpg"
+  },
+  {
+    "id": 36129,
+    "title": "10 000 Réis",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1889,
+    "max_year": 1922,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1045-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1046-180.jpg"
+  },
+  {
+    "id": 36146,
+    "title": "20 000 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1849,
+    "max_year": 1851,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1073-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1074-180.jpg"
+  },
+  {
+    "id": 36322,
+    "title": "20 000 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1851,
+    "max_year": 1852,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1473-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1474-180.jpg"
+  },
+  {
+    "id": 36144,
+    "title": "20 000 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1853,
+    "max_year": 1889,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1069-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1070-180.jpg"
+  },
+  {
+    "id": 36131,
+    "title": "20 000 Réis",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1889,
+    "max_year": 1922,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1047-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1048-180.jpg"
+  },
+  {
+    "id": 342047,
+    "title": "Gold Bar - João VI (Casa de Fundição de Sabará)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1817,
+    "max_year": 1819,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63388d0e862f17.15601478-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63388d0ec22c11.13360710-180.jpg"
+  },
+  {
+    "id": 306867,
+    "title": "10 Centavos (Trial Strike; Getúlio Vargas)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1941,
+    "max_year": 1941,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6156474581cdb8.33506092-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61564745d689e3.15993482-180.jpg"
+  },
+  {
+    "id": 20883,
+    "title": "10 Centavos",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1942,
+    "max_year": 1943,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64147e3463e580.89985079-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64147e35489129.37233660-180.jpg"
+  },
+  {
+    "id": 10251,
+    "title": "10 Centavos",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1943,
+    "max_year": 1947,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6476315c511ce1.48055216-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6476315d0548c1.93976945-180.jpg"
+  },
+  {
+    "id": 6792,
+    "title": "10 Centavos (José Bonifácio)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1947,
+    "max_year": 1955,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64147ed4b2e565.45538775-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64147ed560ecc8.59198729-180.jpg"
+  },
+  {
+    "id": 9368,
+    "title": "10 Centavos",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1956,
+    "max_year": 1961,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c1ffb75945.39006914-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c200ebb8d7.00009698-180.jpg"
+  },
+  {
+    "id": 364661,
+    "title": "10 Centavos (Pattern Strike)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1966,
+    "max_year": 1966,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6456e4bb6b7351.10051516-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6456e4bdc8f639.74695760-180.jpg"
+  },
+  {
+    "id": 14496,
+    "title": "20 Centavos",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1942,
+    "max_year": 1943,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2439-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2440-180.jpg"
+  },
+  {
+    "id": 5378,
+    "title": "20 Centavos",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1943,
+    "max_year": 1948,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2441-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2442-180.jpg"
+  },
+  {
+    "id": 5379,
+    "title": "20 Centavos (Rui Barbosa)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1948,
+    "max_year": 1956,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/5f7a0b665e6c34.36857617-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/5f7a0b66e7b389.36270757-180.jpg"
+  },
+  {
+    "id": 6060,
+    "title": "20 Centavos",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1956,
+    "max_year": 1961,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c245f08df9.39567915-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c247c45365.52347324-180.jpg"
+  },
+  {
+    "id": 109054,
+    "title": "50 Centimos (Trial Strike; Getúlio Vargas)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1941,
+    "max_year": 1941,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2657-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2658-180.jpg"
+  },
+  {
+    "id": 14497,
+    "title": "50 Centavos",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1942,
+    "max_year": 1943,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64147f3be41682.14424146-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64147f3c76afa4.16007589-180.jpg"
+  },
+  {
+    "id": 4896,
+    "title": "50 Centavos",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1943,
+    "max_year": 1947,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/62c16f3fe24422.20958468-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/62c16f4046ad65.39086236-180.jpg"
+  },
+  {
+    "id": 5380,
+    "title": "50 Centavos (Eurico Gaspar Dutra)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1948,
+    "max_year": 1956,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/641662c3243636.19526439-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/641662c413ca88.36875280-180.jpg"
+  },
+  {
+    "id": 4041,
+    "title": "50 Centavos",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1956,
+    "max_year": 1956,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/5f7e1ea58c43e4.55382091-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/5f7e1ea97638d4.05544365-180.jpg"
+  },
+  {
+    "id": 7874,
+    "title": "50 Centavos",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1957,
+    "max_year": 1961,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c28b2fdd40.51581734-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c28ceefc07.27742686-180.jpg"
+  },
+  {
+    "id": 315075,
+    "title": "1 Cruzeiro (Pattern)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1927,
+    "max_year": 1927,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61cb1173a6c670.35474431-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61cb1173d77205.11099918-180.jpg"
+  },
+  {
+    "id": 957,
+    "title": "1 Cruzeiro",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1942,
+    "max_year": 1956,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6416650a760bc8.77009876-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6416650b9337b1.06820494-180.jpg"
+  },
+  {
+    "id": 6793,
+    "title": "1 Cruzeiro",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1956,
+    "max_year": 1956,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/5f8d8dec104738.13681470-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/5f8d8def5acc54.37664260-180.jpg"
+  },
+  {
+    "id": 8195,
+    "title": "1 Cruzeiro",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1957,
+    "max_year": 1961,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c2d30eb526.30656047-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c2d529a3a0.13709419-180.jpg"
+  },
+  {
+    "id": 99865,
+    "title": "2 Cruzeiros (Pattern Strike)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1941,
+    "max_year": 1941,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2091-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2092-180.jpg"
+  },
+  {
+    "id": 109055,
+    "title": "2 Cruzeiros (Trial Strike)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1941,
+    "max_year": 1941,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2681-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2682-180.jpg"
+  },
+  {
+    "id": 1018,
+    "title": "2 Cruzeiros",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1942,
+    "max_year": 1956,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/641665fac88d74.65442425-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/641665fc2ea867.92481648-180.jpg"
+  },
+  {
+    "id": 25127,
+    "title": "2 Cruzeiros",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1956,
+    "max_year": 1956,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2673-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2674-180.jpg"
+  },
+  {
+    "id": 5381,
+    "title": "2 Cruzeiros",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1957,
+    "max_year": 1961,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c379a96121.73586156-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c37b57ce29.74607817-180.jpg"
+  },
+  {
+    "id": 14498,
+    "title": "5 Cruzeiros",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1942,
+    "max_year": 1943,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64148ae02ca272.34582388-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64148ae166a0b4.19024958-180.jpg"
+  },
+  {
+    "id": 9369,
+    "title": "10 Cruzeiros",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1965,
+    "max_year": 1965,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c3bf9ccfc1.16538993-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c3c250a713.38506237-180.jpg"
+  },
+  {
+    "id": 9525,
+    "title": "20 Cruzeiros",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1965,
+    "max_year": 1965,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c3e9c73658.01755992-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c3eb99c124.66489733-180.jpg"
+  },
+  {
+    "id": 9337,
+    "title": "50 Cruzeiros",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1965,
+    "max_year": 1965,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2528-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2529-180.jpg"
+  },
+  {
+    "id": 6794,
+    "title": "1 Centavo",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1967,
+    "max_year": 1975,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2804-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2805-180.jpg"
+  },
+  {
+    "id": 5383,
+    "title": "1 Centavo (FAO)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1975,
+    "max_year": 1978,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/5e35fa55a14ed2.71985518-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/5e35fa567a8307.53079348-180.jpg"
+  },
+  {
+    "id": 356989,
+    "title": "1 Centavo (Trial)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1979,
+    "max_year": 1980,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63f7d5c37adeb6.65882562-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63f7d5c50d3ba1.33926645-180.jpg"
+  },
+  {
+    "id": 14495,
+    "title": "1 Centavo",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1979,
+    "max_year": 1983,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63ff5c534fc112.52234736-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63ff5c539e4b30.46838160-180.jpg"
+  },
+  {
+    "id": 6437,
+    "title": "2 Centavos",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1967,
+    "max_year": 1975,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c49a82ec72.20150771-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c49b8435d2.53167848-180.jpg"
+  },
+  {
+    "id": 5384,
+    "title": "2 Centavos (FAO)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1975,
+    "max_year": 1978,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/5e35fa41416ef8.09766138-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/5e35fa42309707.29385451-180.jpg"
+  },
+  {
+    "id": 2821,
+    "title": "5 Centavos",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1967,
+    "max_year": 1975,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c4b549d018.38066711-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/641611ce66dfd9.47289603-180.jpg"
+  },
+  {
+    "id": 3816,
+    "title": "5 Centavos (FAO)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1975,
+    "max_year": 1978,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2792-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2793-180.jpg"
+  },
+  {
+    "id": 109065,
+    "title": "10 Centavos (Trial Strike)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1967,
+    "max_year": 1967,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2182-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2183-180.jpg"
+  },
+  {
+    "id": 2243,
+    "title": "10 Centavos (non magnetic)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1967,
+    "max_year": 1970,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c519d93b05.63165577-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c51af03846.09756835-180.jpg"
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "id": 3671,
+    "title": "1000 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1853,
+    "max_year": 1866,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/5fad979b61da55.10598382-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/5fad979c016d42.39580591-180.jpg"
+  },
+  {
+    "id": 36142,
+    "title": "1000 Réis - Pedro II (Trial Strike)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1867,
+    "max_year": 1867,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1065-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1066-180.jpg"
+  },
+  {
+    "id": 33147,
+    "title": "1000 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1869,
+    "max_year": 1869,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2570-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2571-180.jpg"
+  },
+  {
+    "id": 22101,
+    "title": "1000 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1876,
+    "max_year": 1889,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/60f6d2694a5f15.64898405-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/60f6d269bd13e1.80938629-180.jpg"
+  },
+  {
+    "id": 36319,
+    "title": "1000 Réis",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1889,
+    "max_year": 1889,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64149b0b0a3fc7.11640488-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64149b0c0a79e5.74822934-180.jpg"
+  },
+  {
+    "id": 36137,
+    "title": "1000 Réis (400th Anniversary of the Discovery)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1900,
+    "max_year": 1900,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1054-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1055-180.jpg"
+  },
+  {
+    "id": 14484,
+    "title": "1000 Réis",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1906,
+    "max_year": 1912,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/60c7ec6ad5f0a8.12081181-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/60c7ec6b3a82f8.06224904-180.jpg"
+  },
+  {
+    "id": 14485,
+    "title": "1000 Réis (dashes between stars)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1912,
+    "max_year": 1913,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64149c528982c5.41733903-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64149c53d4e9b2.07378294-180.jpg"
+  },
+  {
+    "id": 14486,
+    "title": "1000 Réis (no dashes between stars)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1913,
+    "max_year": 1913,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/977-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/978-180.jpg"
+  },
+  {
+    "id": 900,
+    "title": "1000 Réis (Independence Centennial)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1922,
+    "max_year": 1922,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/5ef0fa187350a9.98258321-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/5ef0fa18c13173.70863882-180.jpg"
+  },
+  {
+    "id": 411964,
+    "title": "1000 Réis (Pattern)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1924,
+    "max_year": 1924,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/662a7c4e825852.36082229-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/662a7c4f4f4087.71715104-180.jpg"
+  },
+  {
+    "id": 6132,
+    "title": "1000 Réis",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1924,
+    "max_year": 1931,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6414839578d853.42610590-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6414839643d7d1.18777383-180.jpg"
+  },
+  {
+    "id": 14487,
+    "title": "1000 Réis (400th Anniversary of Colonization)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1932,
+    "max_year": 1932,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64148678039eb0.45643179-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/641486786010a5.19760312-180.jpg"
+  },
+  {
+    "id": 14488,
+    "title": "1000 Réis (Anchieta, large type)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1935,
+    "max_year": 1935,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64148633b72525.98910896-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64148634a5c213.26700190-180.jpg"
+  },
+  {
+    "id": 11487,
+    "title": "1000 Réis (Anchieta, small type)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1936,
+    "max_year": 1938,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61d1cb506a3756.86411665-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61d1cb520d9011.07192827-180.jpg"
+  },
+  {
+    "id": 7059,
+    "title": "1000 Réis (Tobias Barreto)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1939,
+    "max_year": 1939,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/641486da1b56e1.96188425-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/641486dac79f59.09953995-180.jpg"
+  },
+  {
+    "id": 36192,
+    "title": "1200 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1834,
+    "max_year": 1847,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1089-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1090-180.jpg"
+  },
+  {
+    "id": 28267,
+    "title": "2000 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1851,
+    "max_year": 1852,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/5f64e1157b9b49.56136941-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/5f64e115deda65.67676518-180.jpg"
+  },
+  {
+    "id": 3658,
+    "title": "2000 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1853,
+    "max_year": 1867,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/5f4da0434688e1.27968374-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/5f4da043c0f132.55736957-180.jpg"
+  },
+  {
+    "id": 36321,
+    "title": "2000 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1868,
+    "max_year": 1869,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c0e545db73.76530846-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c0e96e5fc5.28871134-180.jpg"
+  },
+  {
+    "id": 27564,
+    "title": "2000 Réis - Pedro II (without phrase)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1875,
+    "max_year": 1876,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c0653693b1.85857659-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415c069328e73.53657587-180.jpg"
+  },
+  {
+    "id": 19792,
+    "title": "2000 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1886,
+    "max_year": 1889,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/971-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/972-180.jpg"
+  },
+  {
+    "id": 36132,
+    "title": "2000 Réis",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1891,
+    "max_year": 1897,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1049-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1050-180.jpg"
+  },
+  {
+    "id": 36138,
+    "title": "2000 Réis (400th Anniversary of the Discovery)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1900,
+    "max_year": 1900,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1057-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1058-180.jpg"
+  },
+  {
+    "id": 14489,
+    "title": "2000 Réis",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1906,
+    "max_year": 1912,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/60c7ebdbf37922.85395434-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/60d121d7170768.47389522-180.jpg"
+  },
+  {
+    "id": 33979,
+    "title": "2000 Réis (dashes between stars)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1912,
+    "max_year": 1913,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63b012910fa2d1.25363010-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63b01291a0c909.34716489-180.jpg"
+  },
+  {
+    "id": 14490,
+    "title": "2000 Réis (no dashes between stars)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1913,
+    "max_year": 1913,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/975-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/976-180.jpg"
+  },
+  {
+    "id": 14491,
+    "title": "2000 Réis (Independence Centennial)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1922,
+    "max_year": 1922,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63a06f89b7d139.68298395-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63a06f8a6a6717.79201574-180.jpg"
+  },
+  {
+    "id": 14773,
+    "title": "2000 Réis (Independence Centennial)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1922,
+    "max_year": 1922,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/602238066d5aa3.07807914-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/60223806cddfc0.10092687-180.jpg"
+  },
+  {
+    "id": 6131,
+    "title": "2000 Réis",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1924,
+    "max_year": 1934,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6414bc7608a6b0.03847929-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6414bc76a3e539.17993118-180.jpg"
+  },
+  {
+    "id": 14492,
+    "title": "2000 Réis (400th Anniversary of Colonization)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1932,
+    "max_year": 1932,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415bd70241948.30543743-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415bd71ba97b5.40726388-180.jpg"
+  },
+  {
+    "id": 14493,
+    "title": "2000 Réis (Duke of Caxias)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1935,
+    "max_year": 1935,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2096-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2097-180.jpg"
+  },
+  {
+    "id": 14494,
+    "title": "2000 Réis (round type)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1936,
+    "max_year": 1938,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6414877e38f884.11686307-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6414877f77e249.65179789-180.jpg"
+  },
+  {
+    "id": 9367,
+    "title": "2000 Réis (24-sided planchet)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1937,
+    "max_year": 1938,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/641488031f4088.84150002-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64148803be9a68.23182629-180.jpg"
+  },
+  {
+    "id": 6776,
+    "title": "2000 Réis (Floriano Peixoto)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1939,
+    "max_year": 1939,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/641b5fe6ea2af8.08237199-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/641b5fe83da672.99643730-180.jpg"
+  },
+  {
+    "id": 109053,
+    "title": "2000 Réis (Trial Strike; Marechal Deodoro)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1939,
+    "max_year": 1939,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2660-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2659-180.jpg"
+  },
+  {
+    "id": 36271,
+    "title": "4000 Réis - John, Prince Regent (Bahia and Rio de Janeiro Mints; Large and Small Crown)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1805,
+    "max_year": 1817,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1174-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1175-180.jpg"
+  },
+  {
+    "id": 351368,
+    "title": "4000 Réis - John, Prince Regent (Rio de Janeiro Mint; Small Crown; Special Serie)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1816,
+    "max_year": 1816,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63b20e3cdd3db0.11585170-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63b20e3de93131.12153121-180.jpg"
+  },
+  {
+    "id": 36216,
+    "title": "4000 Réis - João VI",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1818,
+    "max_year": 1822,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1131-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1132-180.jpg"
+  },
+  {
+    "id": 36205,
+    "title": "4000 Réis - Pedro I",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1823,
+    "max_year": 1828,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1113-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1114-180.jpg"
+  },
+  {
+    "id": 36199,
+    "title": "4000 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1832,
+    "max_year": 1833,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1101-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1102-180.jpg"
+  },
+  {
+    "id": 36139,
+    "title": "4000 Réis (400th Anniversary of the Discovery)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1900,
+    "max_year": 1900,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1060-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1059-180.jpg"
+  },
+  {
+    "id": 36143,
+    "title": "5000 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1854,
+    "max_year": 1859,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1067-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1068-180.jpg"
+  },
+  {
+    "id": 4335,
+    "title": "5000 Réis (Santos Dumont)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1936,
+    "max_year": 1938,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/641611fc6f14c4.40961169-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415bcb4d09188.61156234-180.jpg"
+  },
+  {
+    "id": 36270,
+    "title": "6400 Réis - John, Prince Regent (Rio de Janeiro)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1805,
+    "max_year": 1817,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1172-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1173-180.jpg"
+  },
+  {
+    "id": 61834,
+    "title": "6400 Réis - João VI",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1818,
+    "max_year": 1822,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1583-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1584-180.jpg"
+  },
+  {
+    "id": 71092,
+    "title": "6400 Réis - Pedro I (Coronation of Pedro I)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1822,
+    "max_year": 1822,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2109-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2110-180.jpg"
+  },
+  {
+    "id": 99859,
+    "title": "6400 Réis (Pattern Strike)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1822,
+    "max_year": 1822,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2089-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2090-180.jpg"
+  },
+  {
+    "id": 36204,
+    "title": "6400 Réis - Pedro I",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1823,
+    "max_year": 1830,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2132-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2133-180.jpg"
+  },
+  {
+    "id": 36198,
+    "title": "6400 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1832,
+    "max_year": 1833,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1099-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1100-180.jpg"
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "id": 36239,
+    "title": "320 Réis - João Prince Regent (Countermarked 300 Réis, KM#178.)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1809,
+    "max_year": 1809,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1152-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1153-180.jpg"
+  },
+  {
+    "id": 36231,
+    "title": "320 Réis - João Prince Regent (Countermarked 300 Réis, KM#186)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1809,
+    "max_year": 1809,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1149-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1150-180.jpg"
+  },
+  {
+    "id": 36244,
+    "title": "320 Réis - João Prince Regent",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1809,
+    "max_year": 1817,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1158-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1159-180.jpg"
+  },
+  {
+    "id": 36219,
+    "title": "320 Réis - João VI",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1818,
+    "max_year": 1821,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1135-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1136-180.jpg"
+  },
+  {
+    "id": 36201,
+    "title": "320 Réis - Pedro I",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1824,
+    "max_year": 1830,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1105-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1106-180.jpg"
+  },
+  {
+    "id": 36193,
+    "title": "400 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1834,
+    "max_year": 1848,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1587-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1588-180.jpg"
+  },
+  {
+    "id": 368850,
+    "title": "400 Réis (Pattern)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1899,
+    "max_year": 1899,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6488b857d89738.66480732-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6488b8597deb91.82371435-180.jpg"
+  },
+  {
+    "id": 36133,
+    "title": "400 Réis (400th Anniversary of the Discovery)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1900,
+    "max_year": 1900,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1056-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1052-180.jpg"
+  },
+  {
+    "id": 6773,
+    "title": "400 Réis (Liberty)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1901,
+    "max_year": 1901,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2042-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2041-180.jpg"
+  },
+  {
+    "id": 109051,
+    "title": "400 Réis (Trial Strike)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1914,
+    "max_year": 1914,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2642-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2641-180.jpg"
+  },
+  {
+    "id": 109052,
+    "title": "400 Réis (Trial Strike)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1914,
+    "max_year": 1914,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2640-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2639-180.jpg"
+  },
+  {
+    "id": 6775,
+    "title": "400 Réis",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1918,
+    "max_year": 1935,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/60075b2b88dd37.31740367-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/60075b2ab52a86.22117712-180.jpg"
+  },
+  {
+    "id": 10309,
+    "title": "400 Réis (400th Anniversary of Colonization)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1932,
+    "max_year": 1932,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6414893ddfe6d9.82405501-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6414893f209f65.21288078-180.jpg"
+  },
+  {
+    "id": 2244,
+    "title": "400 Réis (Oswaldo Cruz)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1936,
+    "max_year": 1938,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/5f25aea421faa0.91102412-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/5f25aea5a24633.35445728-180.jpg"
+  },
+  {
+    "id": 2249,
+    "title": "400 Réis",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1938,
+    "max_year": 1942,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6416688ed01122.89190596-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6416688fb1f1d1.32396448-180.jpg"
+  },
+  {
+    "id": 36169,
+    "title": "500 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1848,
+    "max_year": 1852,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1081-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1082-180.jpg"
+  },
+  {
+    "id": 3673,
+    "title": "500 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1853,
+    "max_year": 1867,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/696-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/695-180.jpg"
+  },
+  {
+    "id": 3679,
+    "title": "500 Réis - Pedro II (Bust issue)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1867,
+    "max_year": 1868,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/626c14a1b4ef57.37568585-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/626c14a20ab851.18009551-180.jpg"
+  },
+  {
+    "id": 3873,
+    "title": "500 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1876,
+    "max_year": 1889,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/651-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/652-180.jpg"
+  },
+  {
+    "id": 19841,
+    "title": "500 Réis",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1889,
+    "max_year": 1889,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2245-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2246-180.jpg"
+  },
+  {
+    "id": 10104,
+    "title": "500 Réis",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1906,
+    "max_year": 1912,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/60c7ed8c5037e7.50995566-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/60c7ed8dcd0cf8.76383398-180.jpg"
+  },
+  {
+    "id": 14481,
+    "title": "500 Réis (dashes between stars)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1912,
+    "max_year": 1912,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2542-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2543-180.jpg"
+  },
+  {
+    "id": 14153,
+    "title": "500 Réis (no dashes between stars)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1913,
+    "max_year": 1913,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/979-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/980-180.jpg"
+  },
+  {
+    "id": 9366,
+    "title": "500 Réis (Independence Centennial)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1922,
+    "max_year": 1922,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/5e90a17c7739b4.57438536-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/5e90a116e5aa76.38537038-180.jpg"
+  },
+  {
+    "id": 10105,
+    "title": "500 Réis",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1924,
+    "max_year": 1930,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6414820c6d6393.90882881-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6414820cd99d09.96967348-180.jpg"
+  },
+  {
+    "id": 14482,
+    "title": "500 Réis (400th Anniversary of Colonization)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1932,
+    "max_year": 1932,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6414bf25795217.56710475-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6414bf260f4785.49480833-180.jpg"
+  },
+  {
+    "id": 14483,
+    "title": "500 Réis (Regente Feijó, thin planchet, wide rim)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1935,
+    "max_year": 1935,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/568-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/569-180.jpg"
+  },
+  {
+    "id": 10708,
+    "title": "500 Réis (Regente Feijó, thick planchet)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1936,
+    "max_year": 1938,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/62d423e79b61d7.50766947-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/62d423e7dbbc75.51180540-180.jpg"
+  },
+  {
+    "id": 10709,
+    "title": "500 Réis (Machado de Assis)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1939,
+    "max_year": 1939,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6414827f435017.17077245-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6414827fe8e4c9.45488100-180.jpg"
+  },
+  {
+    "id": 36272,
+    "title": "640 Réis - Maria I (Bahia)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1799,
+    "max_year": 1805,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1176-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1177-180.jpg"
+  },
+  {
+    "id": 36269,
+    "title": "640 Réis - João, Prince Regent",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1806,
+    "max_year": 1808,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1170-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1171-180.jpg"
+  },
+  {
+    "id": 36227,
+    "title": "640 Réis - John, Prince Regent (Countermarked 600 Réis of Province of Minas Gerais, Joseph I, Bahia Mint, KM#179)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1809,
+    "max_year": 1809,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1147-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1535-180.jpg"
+  },
+  {
+    "id": 36225,
+    "title": "640 Réis - John, Prince Regent (Countermarked 600 Réis of Province of Minas Gerais, Joseph I, Rio de Janeiro Mint, KM#187 and KM#194)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1809,
+    "max_year": 1809,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1145-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1146-180.jpg"
+  },
+  {
+    "id": 36241,
+    "title": "640 Réis - João Prince Regent",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1809,
+    "max_year": 1816,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1156-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1157-180.jpg"
+  },
+  {
+    "id": 36218,
+    "title": "640 Réis - João VI",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1818,
+    "max_year": 1822,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1133-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1134-180.jpg"
+  },
+  {
+    "id": 36207,
+    "title": "640 Réis - Pedro I",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1823,
+    "max_year": 1827,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1117-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1118-180.jpg"
+  },
+  {
+    "id": 36171,
+    "title": "800 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1835,
+    "max_year": 1846,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1086-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1085-180.jpg"
+  },
+  {
+    "id": 36246,
+    "title": "960 Réis - João Prince Regent (Counterstamped Chile 8 Reales KM# 51)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1808,
+    "max_year": 1808,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1162-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1163-180.jpg"
+  },
+  {
+    "id": 181827,
+    "title": "960 Réis - João Prince Regent (Pattern)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1809,
+    "max_year": 1809,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2876-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2877-180.jpg"
+  },
+  {
+    "id": 99858,
+    "title": "960 Réis (Pattern Strike)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1809,
+    "max_year": 1809,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2087-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2088-180.jpg"
+  },
+  {
+    "id": 23668,
+    "title": "960 Réis - João Prince Regent",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1810,
+    "max_year": 1818,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1639-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1640-180.jpg"
+  },
+  {
+    "id": 36222,
+    "title": "960 Réis - João Prince Regent",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1816,
+    "max_year": 1816,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1139-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1140-180.jpg"
+  },
+  {
+    "id": 28705,
+    "title": "960 Réis - João VI",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1818,
+    "max_year": 1822,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2810-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2811-180.jpg"
+  },
+  {
+    "id": 36211,
+    "title": "960 Réis - João Prince Regent (Countermarked 8 Reales; Cuiaba)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1820,
+    "max_year": 1820,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1125-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1126-180.jpg"
+  },
+  {
+    "id": 36210,
+    "title": "960 Réis - João Prince Regent (Countermarked 8 Reales; Cuiaba)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1821,
+    "max_year": 1821,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1123-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1124-180.jpg"
+  },
+  {
+    "id": 36209,
+    "title": "960 Réis - João Prince Regent (Countermarked 8 Reales; Cuiaba)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1821,
+    "max_year": 1821,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1122-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1121-180.jpg"
+  },
+  {
+    "id": 36208,
+    "title": "960 Réis - João Prince Regent (Countermarked 8 Reales; Cuiaba)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1821,
+    "max_year": 1821,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1119-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1120-180.jpg"
+  },
+  {
+    "id": 36206,
+    "title": "960 Réis - Pedro I",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1823,
+    "max_year": 1827,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1115-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1116-180.jpg"
+  },
+  {
+    "id": 36200,
+    "title": "960 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1832,
+    "max_year": 1834,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1103-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1104-180.jpg"
+  },
+  {
+    "id": 36148,
+    "title": "1000 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1849,
+    "max_year": 1852,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2512-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2513-180.jpg"
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "id": 71842,
+    "title": "75 Réis - João VI (Minas Gerais)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1818,
+    "max_year": 1821,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2619-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2620-180.jpg"
+  },
+  {
+    "id": 75003,
+    "title": "75 Réis - Pedro I",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1823,
+    "max_year": 1823,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2794-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2795-180.jpg"
+  },
+  {
+    "id": 111728,
+    "title": "80 Réis - Maria I and Pedro III (Countermarked on 40 Reis, KM#203)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1778,
+    "max_year": 1784,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2800-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2801-180.jpg"
+  },
+  {
+    "id": 92053,
+    "title": "80 Réis - Maria I (Countermark on 40 Réis, KM#217)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1786,
+    "max_year": 1796,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1975-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1976-180.jpg"
+  },
+  {
+    "id": 88988,
+    "title": "80 Réis (Countermarked on 40 Reis, KM#184.1.)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1809,
+    "max_year": 1809,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2829-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2828-180.jpg"
+  },
+  {
+    "id": 162835,
+    "title": "80 Réis (Countermarked on 40 Réis - José I - Angola)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1809,
+    "max_year": 1809,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2808-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2809-180.jpg"
+  },
+  {
+    "id": 36224,
+    "title": "80 Réis - João Prince Regent",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1810,
+    "max_year": 1816,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1143-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1144-180.jpg"
+  },
+  {
+    "id": 296945,
+    "title": "80 Réis - João Prince Regent",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1811,
+    "max_year": 1812,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6414c402bcc6b2.77818441-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6414c4043c2003.57857526-180.jpg"
+  },
+  {
+    "id": 77619,
+    "title": "80 Réis - João, Prince Regent",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1818,
+    "max_year": 1818,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2796-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2797-180.jpg"
+  },
+  {
+    "id": 36220,
+    "title": "80 Réis - João VI",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1818,
+    "max_year": 1821,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1137-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1138-180.jpg"
+  },
+  {
+    "id": 365129,
+    "title": "80 Réis - João VI",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1820,
+    "max_year": 1820,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/645be48dd2a782.90450372-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/645be48e2ee705.97697349-180.jpg"
+  },
+  {
+    "id": 24467,
+    "title": "80 Réis - João VI",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1820,
+    "max_year": 1823,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/991-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/992-180.jpg"
+  },
+  {
+    "id": 8349,
+    "title": "80 Réis - Pedro I",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1823,
+    "max_year": 1831,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1011-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1012-180.jpg"
+  },
+  {
+    "id": 36203,
+    "title": "80 Réis - Pedro I",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1824,
+    "max_year": 1826,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1109-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1110-180.jpg"
+  },
+  {
+    "id": 116575,
+    "title": "80 Réis - Pedro I",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1825,
+    "max_year": 1829,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2215-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2216-180.jpg"
+  },
+  {
+    "id": 127770,
+    "title": "80 Réis - Pedro I",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1826,
+    "max_year": 1831,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2625-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2626-180.jpg"
+  },
+  {
+    "id": 48463,
+    "title": "80 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1831,
+    "max_year": 1832,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2611-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2612-180.jpg"
+  },
+  {
+    "id": 36197,
+    "title": "80 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1833,
+    "max_year": 1833,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1097-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1098-180.jpg"
+  },
+  {
+    "id": 30330,
+    "title": "100 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1834,
+    "max_year": 1848,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/990-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/989-180.jpg"
+  },
+  {
+    "id": 118518,
+    "title": "100 Reis - Pedro II (Trial Strike)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1865,
+    "max_year": 1865,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2243-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2244-180.jpg"
+  },
+  {
+    "id": 2251,
+    "title": "100 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1871,
+    "max_year": 1885,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63c1d5e7b90087.22003626-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63c1d5e81d14b3.31578742-180.jpg"
+  },
+  {
+    "id": 109050,
+    "title": "100 Réis (Trial Strike)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1886,
+    "max_year": 1886,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2840-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2841-180.jpg"
+  },
+  {
+    "id": 3878,
+    "title": "100 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1886,
+    "max_year": 1889,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64149fb0d26cd7.63651393-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64149fb23dfd41.89742322-180.jpg"
+  },
+  {
+    "id": 15321,
+    "title": "100 Réis",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1889,
+    "max_year": 1900,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6414a13e2f4c14.93811147-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6414a13f36e3a3.71062057-180.jpg"
+  },
+  {
+    "id": 4333,
+    "title": "100 Réis (Liberty)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1901,
+    "max_year": 1901,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2010-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2009-180.jpg"
+  },
+  {
+    "id": 359204,
+    "title": "100 Réis (Pattern)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1917,
+    "max_year": 1917,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64139eb65cf279.82255900-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64139eb75d1919.08313139-180.jpg"
+  },
+  {
+    "id": 4040,
+    "title": "100 Réis",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1918,
+    "max_year": 1935,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/60952256b36cf1.42093929-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/609522571c8492.62096315-180.jpg"
+  },
+  {
+    "id": 100947,
+    "title": "100 Réis (Pattern Strike)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1924,
+    "max_year": 1924,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2107-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2108-180.jpg"
+  },
+  {
+    "id": 10308,
+    "title": "100 Réis (400th Anniversary of Colonization)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1932,
+    "max_year": 1932,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/626c15dd3ec681.76238547-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/626c15ddb6c0b7.22618800-180.jpg"
+  },
+  {
+    "id": 9077,
+    "title": "100 Réis (Tamandaré)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1936,
+    "max_year": 1938,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/5f46ae60ccafc2.43195173-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/5f46ae6131c5b5.74985777-180.jpg"
+  },
+  {
+    "id": 10242,
+    "title": "100 Réis",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1938,
+    "max_year": 1942,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/641668122ee943.43541975-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64166813125bf3.32512994-180.jpg"
+  },
+  {
+    "id": 36240,
+    "title": "160 Réis - João Prince Regent (Countermarked 150 Réis, KM#185)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1809,
+    "max_year": 1809,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1154-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1155-180.jpg"
+  },
+  {
+    "id": 36223,
+    "title": "160 Réis - João Prince Regent",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1810,
+    "max_year": 1815,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1141-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1142-180.jpg"
+  },
+  {
+    "id": 145679,
+    "title": "160 Réis - João VI (1/2 Pataca)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1818,
+    "max_year": 1821,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2485-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2486-180.jpg"
+  },
+  {
+    "id": 36202,
+    "title": "160 Réis - Pedro I",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1824,
+    "max_year": 1826,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1107-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1108-180.jpg"
+  },
+  {
+    "id": 36195,
+    "title": "160 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1833,
+    "max_year": 1833,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1095-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1096-180.jpg"
+  },
+  {
+    "id": 36172,
+    "title": "200 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1835,
+    "max_year": 1848,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1087-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1088-180.jpg"
+  },
+  {
+    "id": 3674,
+    "title": "200 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1854,
+    "max_year": 1867,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415b8d9175291.54634925-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415b8dbe14c07.18461068-180.jpg"
+  },
+  {
+    "id": 3678,
+    "title": "200 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1867,
+    "max_year": 1869,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2548-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2547-180.jpg"
+  },
+  {
+    "id": 3879,
+    "title": "200 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1871,
+    "max_year": 1884,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6414c0a096a934.39230290-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6414c0a16be2e5.09184303-180.jpg"
+  },
+  {
+    "id": 370465,
+    "title": "200 Réis - Pedro II (Wood Pattern)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1886,
+    "max_year": 1886,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64a14e255a8e56.50747555-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64a14e270b0bd7.79579548-180.jpg"
+  },
+  {
+    "id": 3880,
+    "title": "200 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1886,
+    "max_year": 1889,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6414a22bb46439.75267861-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6414a22cbc2254.51653722-180.jpg"
+  },
+  {
+    "id": 4332,
+    "title": "200 Réis",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1889,
+    "max_year": 1900,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/969-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/970-180.jpg"
+  },
+  {
+    "id": 6440,
+    "title": "200 Réis (Liberty)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1901,
+    "max_year": 1901,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2012-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2011-180.jpg"
+  },
+  {
+    "id": 4334,
+    "title": "200 Réis",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1918,
+    "max_year": 1935,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/641480e4c090b8.74684848-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/641480e56f3343.55392252-180.jpg"
+  },
+  {
+    "id": 14480,
+    "title": "200 Réis (400th Anniversary of Colonization)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1932,
+    "max_year": 1932,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1553-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1554-180.jpg"
+  },
+  {
+    "id": 2245,
+    "title": "200 Réis (Mauá)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1936,
+    "max_year": 1938,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/5f25b29f1563d3.47895185-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/5f25b29f4e5eb3.86996084-180.jpg"
+  },
+  {
+    "id": 9636,
+    "title": "200 Réis",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1938,
+    "max_year": 1942,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/641668453c9966.76874539-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64166846029896.37686092-180.jpg"
+  },
+  {
+    "id": 2250,
+    "title": "300 Réis (Carlos Gomes)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1936,
+    "max_year": 1938,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/5f25b1a48e1c64.27492579-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/5f25b1a4c5e5d6.84802588-180.jpg"
+  },
+  {
+    "id": 5377,
+    "title": "300 Réis",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1938,
+    "max_year": 1942,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64166873972cd4.83739637-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64166874752f73.79437713-180.jpg"
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "id": 22268,
+    "title": "10 Réis - Pedro I (Countermarked 20 Réis, KM#360)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1823,
+    "max_year": 1830,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64960a52997db0.76370714-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64960a531c68c3.44071911-180.jpg"
+  },
+  {
+    "id": 72472,
+    "title": "10 Réis - Pedro I (Countermarked 40 Réis)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1823,
+    "max_year": 1831,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2772-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2773-180.jpg"
+  },
+  {
+    "id": 116607,
+    "title": "10 Réis - Pedro I",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1824,
+    "max_year": 1828,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2760-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2761-180.jpg"
+  },
+  {
+    "id": 124522,
+    "title": "10 Réis - Pedro II (Countermark on 40 Réis KM# 381)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1832,
+    "max_year": 1833,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2260-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2261-180.jpg"
+  },
+  {
+    "id": 3874,
+    "title": "10 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1868,
+    "max_year": 1870,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415bbba724c62.51879273-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415bbbbdfa228.79249240-180.jpg"
+  },
+  {
+    "id": 150085,
+    "title": "10 Réis (Pattern strike)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1869,
+    "max_year": 1869,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2544-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2545-180.jpg"
+  },
+  {
+    "id": 78443,
+    "title": "20 Réis - Maria I (Small Type; Lisbon)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1799,
+    "max_year": 1799,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1991-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1992-180.jpg"
+  },
+  {
+    "id": 323659,
+    "title": "20 Réis - João, Prince Regent (Countermark on a 40 Reis)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1802,
+    "max_year": 1803,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/62386088cca148.58468987-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/623860892264e1.70748444-180.jpg"
+  },
+  {
+    "id": 23432,
+    "title": "20 Réis - João Prince Regent",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1802,
+    "max_year": 1818,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2591-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2592-180.jpg"
+  },
+  {
+    "id": 82348,
+    "title": "20 Réis - João Prince Regent (Countermarked X Réis - Maria I, KM# 215)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1809,
+    "max_year": 1809,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/680ff0bf2a2fa3.96180144-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/680ff0c0800959.60277199-180.jpg"
+  },
+  {
+    "id": 100935,
+    "title": "20 Réis (Pattern Strike)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1811,
+    "max_year": 1811,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2103-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2104-180.jpg"
+  },
+  {
+    "id": 296935,
+    "title": "20 Réis - João Prince Regent (to Goiás and Mato Grosso)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1818,
+    "max_year": 1818,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6414cbe1b2eed3.88839539-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6414cbe2517764.79048065-180.jpg"
+  },
+  {
+    "id": 20873,
+    "title": "20 Réis - João VI",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1818,
+    "max_year": 1822,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1475-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1476-180.jpg"
+  },
+  {
+    "id": 9741,
+    "title": "20 Réis - Pedro I",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1823,
+    "max_year": 1830,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2623-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2624-180.jpg"
+  },
+  {
+    "id": 22267,
+    "title": "20 Réis - Pedro I (Countermarked 40 Réis)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1823,
+    "max_year": 1831,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6554c9b6213ea8.88825085-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6554c9b68322c7.93609359-180.jpg"
+  },
+  {
+    "id": 39514,
+    "title": "20 Réis - Pedro II (Countermarked 80 Réis - Pedro I, KM# 377)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1826,
+    "max_year": 1831,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6414ccc7376de4.83688443-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6414ccc6906824.92973162-180.jpg"
+  },
+  {
+    "id": 77523,
+    "title": "20 Réis - Pedro II (Countermarked 80 Réis from Goiás Mint, KM# 383)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1832,
+    "max_year": 1833,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2750-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2751-180.jpg"
+  },
+  {
+    "id": 162669,
+    "title": "20 Réis - Pedro II (Countermarked 40 Réis, KM# 378)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1835,
+    "max_year": 1835,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2565-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2566-180.jpg"
+  },
+  {
+    "id": 370462,
+    "title": "20 Réis - Pedro II (Pattern)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1838,
+    "max_year": 1838,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64a14bb0518248.27882225-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/64a14bae59e461.01792438-180.jpg"
+  },
+  {
+    "id": 100934,
+    "title": "20 Réis (Pattern Strike)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1860,
+    "max_year": 1860,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2101-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2102-180.jpg"
+  },
+  {
+    "id": 100936,
+    "title": "20 Réis (Pattern Strike)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1862,
+    "max_year": 1862,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2105-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2106-180.jpg"
+  },
+  {
+    "id": 3875,
+    "title": "20 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1868,
+    "max_year": 1870,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61ef17e59e00e7.76440075-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61ef17e7028769.20428716-180.jpg"
+  },
+  {
+    "id": 109048,
+    "title": "20 Réis (Trial Strike)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1869,
+    "max_year": 1869,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2758-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2759-180.jpg"
+  },
+  {
+    "id": 9634,
+    "title": "20 Réis",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1889,
+    "max_year": 1912,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415ba1ced0255.21971425-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415ba1e75c1f0.78203138-180.jpg"
+  },
+  {
+    "id": 9635,
+    "title": "20 Réis",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1918,
+    "max_year": 1935,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/982-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/981-180.jpg"
+  },
+  {
+    "id": 71841,
+    "title": "37½ Reis (Golden Vintém) - João VI",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1818,
+    "max_year": 1821,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2027-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2028-180.jpg"
+  },
+  {
+    "id": 125919,
+    "title": "37½ Reis (Golden Vintém) - Pedro I",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1823,
+    "max_year": 1828,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2283-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2284-180.jpg"
+  },
+  {
+    "id": 130017,
+    "title": "40 Réis - João V (counterstamped 20 Réis)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1729,
+    "max_year": 1749,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2766-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2767-180.jpg"
+  },
+  {
+    "id": 35907,
+    "title": "40 Réis - João Prince Regent (Countermarked 20 Réis)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1778,
+    "max_year": 1784,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1221-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1222-180.jpg"
+  },
+  {
+    "id": 35769,
+    "title": "40 Réis - João Prince Regent (Countermarked 20 Réis)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1786,
+    "max_year": 1799,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2617-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2618-180.jpg"
+  },
+  {
+    "id": 48130,
+    "title": "40 Réis - Maria I (Small Type; Lisbon)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1799,
+    "max_year": 1799,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/668f30f19da9c6.93250847-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/668f30f2007210.26220333-180.jpg"
+  },
+  {
+    "id": 23427,
+    "title": "40 Réis - João, Prince Regent (2 Vinténs)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1802,
+    "max_year": 1817,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2613-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2614-180.jpg"
+  },
+  {
+    "id": 186132,
+    "title": "40 Reis - João Prince Regent (countermarked coinage over D.JOAO V)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1809,
+    "max_year": 1809,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2899-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2900-180.jpg"
+  },
+  {
+    "id": 48390,
+    "title": "40 Réis - José I (Countermarked 20 Réis, KM#175.1)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1809,
+    "max_year": 1809,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2744-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2745-180.jpg"
+  },
+  {
+    "id": 296939,
+    "title": "40 Réis - João Prince Regent (to Goiás and Mato Grosso)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1818,
+    "max_year": 1818,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/60d1f14a45a738.92306239-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/60d1f14adf53d5.84538546-180.jpg"
+  },
+  {
+    "id": 7476,
+    "title": "40 Réis - João VI",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1818,
+    "max_year": 1823,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2621-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2622-180.jpg"
+  },
+  {
+    "id": 22119,
+    "title": "40 Réis - Pedro I (2 Vinténs)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1823,
+    "max_year": 1831,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63bffc6d5eb5f4.75863271-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63bffc6ec86543.41575122-180.jpg"
+  },
+  {
+    "id": 124548,
+    "title": "40 Réis - Pedro I",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1823,
+    "max_year": 1831,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2762-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2763-180.jpg"
+  },
+  {
+    "id": 3974,
+    "title": "40 Réis - Pedro I (Countermarked 80 Réis)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1823,
+    "max_year": 1831,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6414c7719b0083.05178177-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6414c772aff808.47093962-180.jpg"
+  },
+  {
+    "id": 36141,
+    "title": "40 Réis - Pedro I (Trial Strike)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1830,
+    "max_year": 1830,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1063-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1064-180.jpg"
+  },
+  {
+    "id": 48550,
+    "title": "40 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1831,
+    "max_year": 1832,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2559-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2560-180.jpg"
+  },
+  {
+    "id": 124514,
+    "title": "40 Réis - Pedro II (2 Vinténs)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1832,
+    "max_year": 1833,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2481-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2482-180.jpg"
+  },
+  {
+    "id": 33997,
+    "title": "40 Réis - Pedro II (Countermarked 80 Réis, KM# 379)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1835,
+    "max_year": 1835,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6414c820954f96.21675158-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6414c821dda208.76984089-180.jpg"
+  },
+  {
+    "id": 109047,
+    "title": "40 Réis (Trial Strike)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1863,
+    "max_year": 1863,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2798-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2799-180.jpg"
+  },
+  {
+    "id": 52833,
+    "title": "40 Réis - Pedro II (Pattern - Nickel)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1863,
+    "max_year": 1863,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2790-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2791-180.jpg"
+  },
+  {
+    "id": 3876,
+    "title": "40 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1873,
+    "max_year": 1880,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415bb38c07720.56660857-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415bb3ab3e167.60768448-180.jpg"
+  },
+  {
+    "id": 59989,
+    "title": "40 Réis (Pattern Strike)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1889,
+    "max_year": 1889,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2615-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2616-180.jpg"
+  },
+  {
+    "id": 10864,
+    "title": "40 Réis",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1889,
+    "max_year": 1912,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415ba9e200e89.27560156-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415baa0806b71.69633731-180.jpg"
+  },
+  {
+    "id": 3877,
+    "title": "50 Réis - Pedro II",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1886,
+    "max_year": 1888,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2514-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2515-180.jpg"
+  },
+  {
+    "id": 6774,
+    "title": "50 Réis",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1918,
+    "max_year": 1935,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/984-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/983-180.jpg"
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "id": 315542,
+    "title": "4000 Réis - Pedro II (Large Crown; Bahia)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1695,
+    "max_year": 1695,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61de611ea279c4.76748650-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61de611ee21d32.62587003-180.jpg"
+  },
+  {
+    "id": 315546,
+    "title": "4000 Réis - Pedro II (Narrow Crown; Bahia)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1696,
+    "max_year": 1698,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61f22b3aa4bf11.33424414-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61f22b3ade7dc5.27590046-180.jpg"
+  },
+  {
+    "id": 16995,
+    "title": "4000 Réis - Pedro II (Rio de Janeiro)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1699,
+    "max_year": 1700,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/700-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/699-180.jpg"
+  },
+  {
+    "id": 315551,
+    "title": "4000 Réis - Pedro II (Pernambuco)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1702,
+    "max_year": 1702,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61f22c231e9713.85366461-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61f22c23622c20.44787763-180.jpg"
+  },
+  {
+    "id": 36116,
+    "title": "4000 Réis - Pedro II (Rio de Janeiro)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1703,
+    "max_year": 1707,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1019-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1020-180.jpg"
+  },
+  {
+    "id": 16997,
+    "title": "4000 Réis - João V (Rio de Janeiro)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1707,
+    "max_year": 1727,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/704-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/703-180.jpg"
+  },
+  {
+    "id": 16998,
+    "title": "4000 Réis - João V (Bahia)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1714,
+    "max_year": 1727,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/706-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/705-180.jpg"
+  },
+  {
+    "id": 321766,
+    "title": "4000 Réis - João V (Pattern Type - Bahia)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1722,
+    "max_year": 1722
+  },
+  {
+    "id": 35713,
+    "title": "4000 Réis - João V (Vila Rica)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1724,
+    "max_year": 1727,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63bff9ede90e10.83175780-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63bff9ef1900d6.99025803-180.jpg"
+  },
+  {
+    "id": 315877,
+    "title": "4000 Réis - João V (State of Grão-Pará and Maranhão; Lisbon)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1749,
+    "max_year": 1749,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61f22e62342df4.02028415-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61f22e628800f4.12087467-180.jpg"
+  },
+  {
+    "id": 17040,
+    "title": "4000 Réis - José I (Lisbon)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1751,
+    "max_year": 1777,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/995-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/996-180.jpg"
+  },
+  {
+    "id": 36278,
+    "title": "4000 Réis - Maria I and Pedro III (Lisbon and Rio de Janeiro Mints)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1778,
+    "max_year": 1786,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1186-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1187-180.jpg"
+  },
+  {
+    "id": 332487,
+    "title": "4000 Réis - Maria I (Rio de Janeiro and Bahia Mints)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1787,
+    "max_year": 1805,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63406ea2dade06.01718546-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63406ea4af40c5.78680625-180.jpg"
+  },
+  {
+    "id": 36119,
+    "title": "6400 Réis - João V (1st Type of Shield; Bahia)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1727,
+    "max_year": 1730,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1025-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1026-180.jpg"
+  },
+  {
+    "id": 36120,
+    "title": "6400 Réis - João V (1st Type of Shield; Rio de Janeiro)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1727,
+    "max_year": 1731,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1027-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1028-180.jpg"
+  },
+  {
+    "id": 315931,
+    "title": "6400 Réis - João V (Vila Rica)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1727,
+    "max_year": 1734,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61f2343d831b10.77346655-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61f2343dc945f6.94326450-180.jpg"
+  },
+  {
+    "id": 315927,
+    "title": "6400 Réis - João V (2nd Type of Shield; Bahia)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1727,
+    "max_year": 1734,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61f2351b31d8b7.82725721-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61f2351b71e377.20576623-180.jpg"
+  },
+  {
+    "id": 315935,
+    "title": "6400 Réis - João V (Pattern Type 1; Rio de Janeiro)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1727,
+    "max_year": 1747
+  },
+  {
+    "id": 315937,
+    "title": "6400 Réis - João V (Pattern Type 2; Rio de Janeiro)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1727,
+    "max_year": 1747
+  },
+  {
+    "id": 315929,
+    "title": "6400 Réis - João V (3rd Type of Shield; Bahia)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1729,
+    "max_year": 1732,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6340997c5470e9.29407417-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6340997d707016.81386548-180.jpg"
+  },
+  {
+    "id": 17006,
+    "title": "6400 Réis - João V (2nd Type of Shield; Rio de Janeiro)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1731,
+    "max_year": 1750,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1001-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1002-180.jpg"
+  },
+  {
+    "id": 17007,
+    "title": "6400 Réis - João V (4th Type of Shield; Bahia)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1732,
+    "max_year": 1750,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/999-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1000-180.jpg"
+  },
+  {
+    "id": 315938,
+    "title": "6400 Réis - João V (Pattern Type 3; Rio de Janeiro)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1747,
+    "max_year": 1747
+  },
+  {
+    "id": 17041,
+    "title": "6400 Réis - José I (Bahia and Rio de Janeiro Mints)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1751,
+    "max_year": 1777,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/739-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/740-180.jpg"
+  },
+  {
+    "id": 321607,
+    "title": "6400 Réis - José I (Pattern Type 1 - Rio de Janeiro)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1753,
+    "max_year": 1771
+  },
+  {
+    "id": 321613,
+    "title": "6400 Réis - José I (Pattern Type 3 - Rio de Janeiro)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1771,
+    "max_year": 1772
+  },
+  {
+    "id": 321611,
+    "title": "6400 Réis - José I (Pattern Type 2, Arms of Maria I - Rio de Janeiro)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1772,
+    "max_year": 1772
+  },
+  {
+    "id": 321615,
+    "title": "6400 Réis - José I (Trial Strike Type 1 - Rio de Janeiro)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1772,
+    "max_year": 1772
+  },
+  {
+    "id": 321617,
+    "title": "6400 Réis - José I (Trial Strike Type 2 - Rio de Janeiro)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1772,
+    "max_year": 1772
+  },
+  {
+    "id": 35585,
+    "title": "6400 Réis - Maria I and Pedro III (Bahia and Rio de Janeiro Mints)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1777,
+    "max_year": 1786,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/993-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/994-180.jpg"
+  },
+  {
+    "id": 332310,
+    "title": "6400 Réis - Maria I and Pedro III (Pattern Type 1 - Rio de Janeiro)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1777,
+    "max_year": 1786
+  },
+  {
+    "id": 332311,
+    "title": "6400 Réis - Maria I and Pedro III (Pattern Type 2 - Rio de Janeiro)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1781,
+    "max_year": 1781
+  },
+  {
+    "id": 332496,
+    "title": "6400 Réis - Maria I (Pattern of 1st Type - Widow's Veil; Rio de Janeiro)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1786,
+    "max_year": 1786
+  },
+  {
+    "id": 36277,
+    "title": "6400 Réis - Maria I (1st Type - Widow's Veil; Rio de Janeiro and Bahia Mints)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1786,
+    "max_year": 1790,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1184-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1185-180.jpg"
+  },
+  {
+    "id": 36273,
+    "title": "6400 Réis - Maria I (2nd Type - Headdress Veil; Rio de Janeiro and Bahia Mints)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1789,
+    "max_year": 1805,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1178-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1179-180.jpg"
+  },
+  {
+    "id": 332497,
+    "title": "6400 Réis - Maria I (Pattern of 2nd Type - Headdress Veil; Rio de Janeiro)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1796,
+    "max_year": 1796
+  },
+  {
+    "id": 17000,
+    "title": "10 000 Réis - João V (Vila Rica)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1724,
+    "max_year": 1727,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/710-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/709-180.jpg"
+  },
+  {
+    "id": 36121,
+    "title": "12800 Réis - João V (1st Type of Shield; Bahia)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1727,
+    "max_year": 1729,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1029-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1030-180.jpg"
+  },
+  {
+    "id": 36122,
+    "title": "12800 Réis - João V (2nd Type of Shield; Bahia)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1727,
+    "max_year": 1730,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1031-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1032-180.jpg"
+  },
+  {
+    "id": 117197,
+    "title": "12800 Réis - João V (1st Type of Shield; Rio de Janeiro)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1727,
+    "max_year": 1731,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2221-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2222-180.jpg"
+  },
+  {
+    "id": 17004,
+    "title": "12 800 Réis - João V (Vila Rica)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1727,
+    "max_year": 1733,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1003-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1004-180.jpg"
+  },
+  {
+    "id": 315981,
+    "title": "12800 Réis - João V (3rd Type of Shield; Bahia)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1730,
+    "max_year": 1730,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/624c671791b6f7.81661018-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/624c6719961987.98059230-180.jpg"
+  },
+  {
+    "id": 315982,
+    "title": "12800 Réis - João V (4th Type of Shield; Bahia)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1730,
+    "max_year": 1732
+  },
+  {
+    "id": 36123,
+    "title": "12800 Réis - João V (2nd Type of Shield; Rio de Janeiro)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1731,
+    "max_year": 1733,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/689550051eb802.45880483-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6895500694fe77.77834756-180.jpg"
+  },
+  {
+    "id": 17002,
+    "title": "20 000 Réis - João V (Vila Rica)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1724,
+    "max_year": 1727,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/712-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/711-180.jpg"
+  },
+  {
+    "id": 78353,
+    "title": "5 Réis - Maria I (Small Type; Lisbon)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1799,
+    "max_year": 1799,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6741aaeeea8033.69316390-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6741aaef680754.21197827-180.jpg"
+  },
+  {
+    "id": 78442,
+    "title": "10 Réis - Maria I (Small Type; Lisbon)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1799,
+    "max_year": 1799,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/65b7b30a302dc1.77263486-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/65b7b30ab05a71.77932679-180.jpg"
+  },
+  {
+    "id": 24287,
+    "title": "10 Réis - João Prince Regent",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1802,
+    "max_year": 1818,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2748-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2749-180.jpg"
+  },
+  {
+    "id": 62606,
+    "title": "10 Réis - José I (counterstamped 5 Réis)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1809,
+    "max_year": 1809,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2756-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2757-180.jpg"
+  },
+  {
+    "id": 18308,
+    "title": "10 Réis - João VI",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1818,
+    "max_year": 1823,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/5e4f51db7f90a6.99690977-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/5e4f51dc459a06.15261652-180.jpg"
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "id": 17010,
+    "title": "640 Réis - João V (Crown with 5 Arches; Lisbon and Rio de Janeiro Mints)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1748,
+    "max_year": 1750,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/727-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/728-180.jpg"
+  },
+  {
+    "id": 17039,
+    "title": "640 Réis - José I (Heavy Type - Bahia, Rio de Janeiro and Lisbon Mints)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1751,
+    "max_year": 1758,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/997-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/998-180.jpg"
+  },
+  {
+    "id": 184031,
+    "title": "640 Réis - José I (Light Type - Lisbon)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1768,
+    "max_year": 1771,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2887-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2888-180.jpg"
+  },
+  {
+    "id": 34712,
+    "title": "640 Réis - Maria I and Pedro III (Low and High Crowns; Lisbon)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1778,
+    "max_year": 1784,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2299-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2300-180.jpg"
+  },
+  {
+    "id": 36275,
+    "title": "640 Réis - Maria I (Lisbon and Rio de Janeiro Mints)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1787,
+    "max_year": 1802,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1180-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1181-180.jpg"
+  },
+  {
+    "id": 36317,
+    "title": "800 Réis - João V (2nd Type of Shield; Bahia)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1727,
+    "max_year": 1729,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1208-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1209-180.jpg"
+  },
+  {
+    "id": 315740,
+    "title": "800 Réis - João V (1st Type of Shield; Rio de Janeiro)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1727,
+    "max_year": 1730,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61f230f8bda651.68203404-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61f230f9028453.94252791-180.jpg"
+  },
+  {
+    "id": 17003,
+    "title": "800 Réis - João V (1st Type of Shield; Bahia)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1727,
+    "max_year": 1731,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/713-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/714-180.jpg"
+  },
+  {
+    "id": 17005,
+    "title": "800 Réis - João V (Vila Rica)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1727,
+    "max_year": 1734,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1206-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1207-180.jpg"
+  },
+  {
+    "id": 315737,
+    "title": "800 Réis - João V (4th Type of Shield; Bahia)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1727,
+    "max_year": 1750,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61f235fc7c5507.24428689-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61f235fcb9b697.00322829-180.jpg"
+  },
+  {
+    "id": 17008,
+    "title": "800 Réis - João V (2nd Type of Shield; Rio de Janeiro)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1734,
+    "max_year": 1749,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/723-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/724-180.jpg"
+  },
+  {
+    "id": 36128,
+    "title": "800 Réis - José I (Bahia and Rio de Janeiro Mints)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1752,
+    "max_year": 1777,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1043-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1044-180.jpg"
+  },
+  {
+    "id": 332219,
+    "title": "800 Réis - Maria I and Pedro III (Bahia)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1782,
+    "max_year": 1786
+  },
+  {
+    "id": 315475,
+    "title": "1000 Réis - Pedro II (Narrow Crown; Bahia)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1696,
+    "max_year": 1696
+  },
+  {
+    "id": 16994,
+    "title": "1000 Réis - Pedro II (Large Crown; Rio de Janeiro)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1699,
+    "max_year": 1700,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/698-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/697-180.jpg"
+  },
+  {
+    "id": 315768,
+    "title": "1000 Réis - João V (Rio de Janeiro)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1708,
+    "max_year": 1726,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61de5b23167d41.53931453-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61de5b2350e011.97910468-180.jpg"
+  },
+  {
+    "id": 315767,
+    "title": "1000 Réis - João V (Bahia)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1714,
+    "max_year": 1726,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61de5c07a75547.68408823-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61de5c07dff2c4.44113106-180.jpg"
+  },
+  {
+    "id": 16999,
+    "title": "1000 Réis - João V (Vila Rica)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1724,
+    "max_year": 1727,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/708-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/707-180.jpg"
+  },
+  {
+    "id": 17011,
+    "title": "1000 Réis - João V (State of Grão-Pará and Maranhão; Lisbon)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1749,
+    "max_year": 1749,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/730-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/729-180.jpg"
+  },
+  {
+    "id": 36124,
+    "title": "1000 Réis - José I (Lisbon)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1749,
+    "max_year": 1774,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1035-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1036-180.jpg"
+  },
+  {
+    "id": 317149,
+    "title": "1000 Réis - Maria I and Pedro III (Lisbon and Rio de Janeiro Mints)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1778,
+    "max_year": 1782,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61e0607f5dd230.13395480-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61e0607f8f2a14.41709485-180.jpg"
+  },
+  {
+    "id": 332490,
+    "title": "1000 Réis - Maria I (Rio de Janeiro)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1787,
+    "max_year": 1787,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63c297f5062607.58932359-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63c297f5422018.79715521-180.jpg"
+  },
+  {
+    "id": 315769,
+    "title": "1600 Réis - João V (1st Type of Shield; Bahia)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1727,
+    "max_year": 1729,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61f22d4e8d8bf5.87268094-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61f22d4eca6ec6.51794304-180.jpg"
+  },
+  {
+    "id": 315770,
+    "title": "1600 Réis - João V (2nd Type of Shield; Bahia)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1727,
+    "max_year": 1729,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61f22f58f06bd0.91577439-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61f22f594208a5.55058068-180.jpg"
+  },
+  {
+    "id": 315773,
+    "title": "1600 Réis - João V (1st Type of Shield; Rio de Janeiro)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1727,
+    "max_year": 1730,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61f23236265867.90959331-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61f232365946c0.93075544-180.jpg"
+  },
+  {
+    "id": 315772,
+    "title": "1600 Réis - João V (Vila Rica)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1727,
+    "max_year": 1733,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61f23311218104.44156864-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61f233115e29d0.80554947-180.jpg"
+  },
+  {
+    "id": 315771,
+    "title": "1600 Réis - João V (4th Type of Shield; Bahia)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1727,
+    "max_year": 1750,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61f236fee29fb8.20960392-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61f236ff21aac5.41855164-180.jpg"
+  },
+  {
+    "id": 315774,
+    "title": "1600 Réis - João V (2nd Type of Shield; Rio de Janeiro)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1736,
+    "max_year": 1736,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6328475d3d92d3.85796989-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6328475da7f2d9.20673938-180.jpg"
+  },
+  {
+    "id": 36313,
+    "title": "1600 Réis - José I (Bahia and Rio de Janeiro Mints)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1752,
+    "max_year": 1777,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1200-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1201-180.jpg"
+  },
+  {
+    "id": 332218,
+    "title": "1600 Réis - Maria I and Pedro III (Bahia)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1780,
+    "max_year": 1784,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/65a2f73ccbee18.79404480-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/65a2f73f6247c0.58256924-180.jpg"
+  },
+  {
+    "id": 315516,
+    "title": "2000 Réis - Pedro II (Large Crown; Bahia)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1695,
+    "max_year": 1695
+  },
+  {
+    "id": 315521,
+    "title": "2000 Réis - Pedro II (Narrow Crown; Bahia)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1696,
+    "max_year": 1697,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61de5d6303d4b2.13306347-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61de5d6353d7e7.77003225-180.jpg"
+  },
+  {
+    "id": 66454,
+    "title": "2000 Réis - Pedro II (Rio de Janeiro)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1699,
+    "max_year": 1700,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1601-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1602-180.jpg"
+  },
+  {
+    "id": 16996,
+    "title": "2000 Réis - Pedro II (Rio de Janeiro)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1703,
+    "max_year": 1703,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/702-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/701-180.jpg"
+  },
+  {
+    "id": 36117,
+    "title": "2000 Réis - João V (Bahia)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1714,
+    "max_year": 1725,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1021-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1022-180.jpg"
+  },
+  {
+    "id": 315838,
+    "title": "2000 Réis - João V (Rio de Janeiro)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1723,
+    "max_year": 1726,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61de5e736a2451.25078146-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61de5e73a20825.91423177-180.jpg"
+  },
+  {
+    "id": 315837,
+    "title": "2000 Réis - João V (Vila Rica)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1724,
+    "max_year": 1727,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61de5fafca63f3.77678244-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61de5fb009cd04.10311927-180.jpg"
+  },
+  {
+    "id": 36125,
+    "title": "2000 Réis - João V (State of Grão-Pará and Maranhão; Lisbon)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1749,
+    "max_year": 1749,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1037-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1038-180.jpg"
+  },
+  {
+    "id": 36314,
+    "title": "2000 Réis - José I (Larger Type; Lisbon)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1752,
+    "max_year": 1771,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1202-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1203-180.jpg"
+  },
+  {
+    "id": 36280,
+    "title": "2000 Réis - José I (Smaller Type; Lisbon)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1771,
+    "max_year": 1773,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1190-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1191-180.jpg"
+  },
+  {
+    "id": 141169,
+    "title": "2000 Réis - Maria I and Pedro III (Lisbon and Rio de Janeiro Mints)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1778,
+    "max_year": 1783,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63bff95b65dc75.57534288-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63bff95d16c9c9.70592800-180.jpg"
+  },
+  {
+    "id": 332489,
+    "title": "2000 Réis - Maria I (Rio de Janeiro)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1787,
+    "max_year": 1793,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/634093dcb441c4.20756843-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/634093de633ac0.81276747-180.jpg"
+  },
+  {
+    "id": 315845,
+    "title": "3200 Réis - João V (1st Type of Shield; Rio de Janeiro)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1727,
+    "max_year": 1729,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61f2300f76bca8.60409893-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61f2300fbd75e5.59671224-180.jpg"
+  },
+  {
+    "id": 315841,
+    "title": "3200 Réis - João V (2nd Type of Shield; Bahia)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1727,
+    "max_year": 1729,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63287d61cb8eb5.80727497-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63287d621f29e8.44431084-180.jpg"
+  },
+  {
+    "id": 315840,
+    "title": "3200 Réis - João V (1st Type of Shield; Bahia)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1727,
+    "max_year": 1732
+  },
+  {
+    "id": 36118,
+    "title": "3200 Réis - João V (Vila Rica)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1727,
+    "max_year": 1733,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1023-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1024-180.jpg"
+  },
+  {
+    "id": 315842,
+    "title": "3200 Réis - João V (4th Type of Shield; Bahia)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1727,
+    "max_year": 1750,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61f237abd574d9.45110792-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/61f237ac11a247.44083094-180.jpg"
+  },
+  {
+    "id": 17009,
+    "title": "3200 Réis - João V (2nd Type of Shield; Rio de Janeiro)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1739,
+    "max_year": 1749,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/725-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/726-180.jpg"
+  },
+  {
+    "id": 36315,
+    "title": "3200 Réis - José I (Bahia and Rio de Janeiro Mints)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1752,
+    "max_year": 1777,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1204-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/1205-180.jpg"
+  },
+  {
+    "id": 332216,
+    "title": "3200 Réis - Maria I and Pedro III (Bahia)",
+    "category": "coin",
+    "issuer": {
+      "code": "bresil",
+      "name": "Brazil"
+    },
+    "min_year": 1780,
+    "max_year": 1786,
+    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6340961309fea4.09151167-180.jpg",
+    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/63409614b6b0e9.61374700-180.jpg"
+  }
+]
