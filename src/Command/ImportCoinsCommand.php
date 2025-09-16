@@ -56,8 +56,8 @@ class ImportCoinsCommand extends Command
             $coin->setIssuer('Brasil');
             $coin->setMinYear($item['min_year'] ?? null);
             $coin->setMaxYear($item['max_year'] ?? null);
-            $coin->setObverse(isset($item['obverse_thumbnail']) ? $item['id'] . '_obverse.png' : 'SemFoto.png');
-            $coin->setReverse(isset($item['reverse_thumbnail']) ? $item['id'] . '_reverse.png' : 'SemFoto.png');
+            $coin->setObverse(isset($item['obverse_thumbnail']) ? $item['id'] . '_obverse.jpg' : 'SemFoto.png');
+            $coin->setReverse(isset($item['reverse_thumbnail']) ? $item['id'] . '_reverse.jpg' : 'SemFoto.png');
 
             $this->em->persist($coin);
         }
