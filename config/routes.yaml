@@ -40,3 +40,8 @@ coin_list:
     path: /api/coin/list
     controller: App\Controller\CoinController::coinList
     methods: GET
+
+coin_show:
+  path: /api/coins/{id}
+  controller: App\Controller\CoinsController::show
+  methods: GET

@@ -10,7 +10,7 @@ use Doctrine\Migrations\AbstractMigration;
 /**
  * Auto-generated Migration: Please modify to your needs!
  */
-final class Version20250917023907 extends AbstractMigration
+final class Version20250919022746 extends AbstractMigration
 {
     public function getDescription(): string
     {
@@ -20,14 +20,12 @@ final class Version20250917023907 extends AbstractMigration
     public function up(Schema $schema): void
     {
         // this up() migration is auto-generated, please modify it to your needs
-        $this->addSql('ALTER TABLE coins ALTER issuer TYPE VARCHAR(255)');
-        $this->addSql('ALTER TABLE coins ALTER shape TYPE VARCHAR(255)');
-        $this->addSql('ALTER TABLE coins ALTER edge TYPE VARCHAR(255)');
+
+        $this->addSql('ALTER TABLE coins RENAME COLUMN "group" TO coin_group');
     }
 
     public function down(Schema $schema): void
     {
-        // this down() migration is auto-generated, please modify it to your needs
-        
+
     }
 }

@@ -19,10 +19,16 @@ class Coins
     /** @ORM\Column(type="string", length=255) */
     private $title;
 
+    /** @ORM\Column(type="string", length=255, nullable=true) */
+    private $url;
+
     /** @ORM\Column(type="string", length=100) */
     private $category;
 
-    /** @ORM\Column(type="string", length=255) */
+    /** @ORM\Column(type="string", length=255, nullable=true) */
+    private $type;
+
+    /** @ORM\Column(type="json", nullable=true) */
     private $issuer;
 
     /** @ORM\Column(type="integer", nullable=true) */
@@ -32,25 +38,46 @@ class Coins
     private $maxYear;
 
     /** @ORM\Column(type="string", length=255, nullable=true) */
-    private $valueFullName;
+    private $valueText;
+
+    /** @ORM\Column(type="float", nullable=true) */
+    private $valueNumeric;
 
     /** @ORM\Column(type="string", length=255, nullable=true) */
-    private $rulerName;
-
-    /** @ORM\Column(type="string", length=100, nullable=true) */
-    private $technique;
-
-    /** @ORM\Column(type="text", nullable=true) */
-    private $obverseDescription;
-
-    /** @ORM\Column(type="text", nullable=true) */
-    private $reverseDescription;
+    private $currencyName;
 
     /** @ORM\Column(type="json", nullable=true) */
-    private $mints;
+    private $ruler;
 
-    /** @ORM\Column(type="decimal", precision=10, scale=2, nullable=true) */
-    private $weight;
+    /** @ORM\Column(type="boolean", nullable=true) */
+    private $isDemonetized;
+
+    /** @ORM\Column(type="json", nullable=true) */
+    private $composition;
+
+    /** @ORM\Column(type="json", nullable=true) */
+    private $technique;
+
+    /** @ORM\Column(type="json", nullable=true) */
+    private $obverse;
+
+    /** @ORM\Column(type="json", nullable=true) */
+    private $reverse;
+
+    /** @ORM\Column(type="json", nullable=true) */
+    private $edge;
+
+    /** @ORM\Column(type="text", nullable=true) */
+    private $comments;
+
+    /** @ORM\Column(type="json", nullable=true) */
+    private $relatedTypes;
+
+    /** @ORM\Column(type="json", nullable=true) */
+    private $tags;
+
+    /** @ORM\Column(type="json", nullable=true) */
+    private $referenceCode;
 
     /** @ORM\Column(type="decimal", precision=10, scale=2, nullable=true) */
     private $size;
@@ -61,24 +88,46 @@ class Coins
     /** @ORM\Column(type="string", length=255, nullable=true) */
     private $shape;
 
-    /** @ORM\Column(type="string", length=255, nullable=true) */
-    private $compositionText;
+    /** @ORM\Column(type="json", nullable=true) */
+    private $coinGroup;
 
-    /** @ORM\Column(type="string", length=255, nullable=true) */
-    private $edge;
+    /** @ORM\Column(type="json", nullable=true) */
+    private $currency;
 
     /** @ORM\Column(type="date", nullable=true) */
     private $demonetizationDate;
 
-    /** 
-     * @ORM\Column(type="string", length=255, nullable=true) 
-     */
-    private $obverse; // nome da imagem frente
+    /** ✅ NOVO: Peso da moeda */
+    /** @ORM\Column(type="decimal", precision=10, scale=2, nullable=true) */
+    private $weight;
+
+    /** ✅ NOVO: Orientação da moeda (coin, medal, etc.) */
+    /** @ORM\Column(type="string", length=255, nullable=true) */
+    private $orientation;
+
+    /** ✅ NOVO: Casas da moeda */
+    /** @ORM\Column(type="json", nullable=true) */
+    private $mints;
 
     /** 
      * @ORM\Column(type="string", length=255, nullable=true) 
      */
-    private $reverse; // nome da imagem verso
+    private $obverse_img; // nome da imagem frente
+
+    /** 
+     * @ORM\Column(type="string", length=255, nullable=true) 
+     */
+    private $reverse_img; // nome da imagem verso
+
+    /** 
+     * @ORM\Column(type="string", length=255, nullable=true) 
+     */
+    private $edge_img; // nome da imagem frente
+
+
+
+
+    // ========= GETTERS & SETTERS =========
 
     public function getId(): int
     {
@@ -100,6 +149,56 @@ class Coins
         return $this;
     }
 
+    public function getUrl(): ?string
+    {
+        return $this->url;
+    }
+    public function setUrl(?string $url): self
+    {
+        $this->url = $url;
+        return $this;
+    }
+
+    public function getValueNumeric(): ?float
+    {
+        return $this->valueNumeric;
+    }
+    public function setValueNumeric(?float $valueNumeric): self
+    {
+        $this->valueNumeric = $valueNumeric;
+        return $this;
+    }
+
+    public function getCurrencyName(): ?string
+    {
+        return $this->currencyName;
+    }
+    public function setCurrencyName(?string $currencyName): self
+    {
+        $this->currencyName = $currencyName;
+        return $this;
+    }
+
+    public function getRuler(): ?array
+    {
+        return $this->ruler;
+    }
+    public function setRuler(?array $ruler): self
+    {
+        $this->ruler = $ruler;
+        return $this;
+    }
+
+    public function getIsDemonetized(): ?bool
+    {
+        return $this->isDemonetized;
+    }
+    public function setIsDemonetized(?bool $isDemonetized): self
+    {
+        $this->isDemonetized = $isDemonetized;
+        return $this;
+    }
+
     public function getCategory(): string
     {
         return $this->category;
@@ -110,23 +209,13 @@ class Coins
         return $this;
     }
 
-    public function getIssuer(): string
+    public function getIssuer(): ?array
     {
         return $this->issuer;
     }
-    public function setIssuer(string $issuer): self
+    public function setIssuer(?array $issuer): self
     {
         $this->issuer = $issuer;
-        return $this;
-    }
-
-    public function getMinYear(): ?int
-    {
-        return $this->minYear;
-    }
-    public function setMinYear(?int $minYear): self
-    {
-        $this->minYear = $minYear;
         return $this;
     }
 
@@ -140,73 +229,13 @@ class Coins
         return $this;
     }
 
-    public function getValueFullName(): ?string
+      public function getMinYear(): ?int
     {
-        return $this->valueFullName;
+        return $this->minYear;
     }
-    public function setValueFullName(?string $valueFullName): self
+    public function setMinYear(?int $minYear): self
     {
-        $this->valueFullName = $valueFullName;
-        return $this;
-    }
-
-    public function getRulerName(): ?string
-    {
-        return $this->rulerName;
-    }
-    public function setRulerName(?string $rulerName): self
-    {
-        $this->rulerName = $rulerName;
-        return $this;
-    }
-
-    public function getTechnique(): ?string
-    {
-        return $this->technique;
-    }
-    public function setTechnique(?string $technique): self
-    {
-        $this->technique = $technique;
-        return $this;
-    }
-
-    public function getObverseDescription(): ?string
-    {
-        return $this->obverseDescription;
-    }
-    public function setObverseDescription(?string $obverseDescription): self
-    {
-        $this->obverseDescription = $obverseDescription;
-        return $this;
-    }
-
-    public function getReverseDescription(): ?string
-    {
-        return $this->reverseDescription;
-    }
-    public function setReverseDescription(?string $reverseDescription): self
-    {
-        $this->reverseDescription = $reverseDescription;
-        return $this;
-    }
-
-    public function getMints(): ?array
-    {
-        return $this->mints;
-    }
-    public function setMints(?array $mints): self
-    {
-        $this->mints = $mints;
-        return $this;
-    }
-
-    public function getWeight(): ?float
-    {
-        return $this->weight;
-    }
-    public function setWeight(?float $weight): self
-    {
-        $this->weight = $weight;
+        $this->minYear = $minYear;
         return $this;
     }
 
@@ -230,33 +259,23 @@ class Coins
         return $this;
     }
 
-    public function getShape(): ?string
+    public function getCoinGroup(): ?array
     {
-        return $this->shape;
+        return $this->coinGroup;
     }
-    public function setShape(?string $shape): self
+    public function setCoinGroup(?array $coinGroup): self
     {
-        $this->shape = $shape;
+        $this->coinGroup = $coinGroup;
         return $this;
     }
 
-    public function getCompositionText(): ?string
+    public function getCurrency(): ?array
     {
-        return $this->compositionText;
+        return $this->currency;
     }
-    public function setCompositionText(?string $compositionText): self
+    public function setCurrency(?array $currency): self
     {
-        $this->compositionText = $compositionText;
-        return $this;
-    }
-
-    public function getEdge(): ?string
-    {
-        return $this->edge;
-    }
-    public function setEdge(?string $edge): self
-    {
-        $this->edge = $edge;
+        $this->currency = $currency;
         return $this;
     }
 
@@ -270,25 +289,183 @@ class Coins
         return $this;
     }
 
-        public function getObverse(): ?string
+    public function getObverse(): ?array
     {
         return $this->obverse;
     }
-
-    public function setObverse(?string $obverse): self
+    public function setObverse(?array $obverse): self
     {
         $this->obverse = $obverse;
         return $this;
     }
 
-    public function getReverse(): ?string
+    public function getReverse(): ?array
     {
         return $this->reverse;
     }
-
-    public function setReverse(?string $reverse): self
+    public function setReverse(?array $reverse): self
     {
         $this->reverse = $reverse;
+        return $this;
+    }
+
+    public function getEdge(): ?array
+    {
+        return $this->edge;
+    }
+    public function setEdge(?array $edge): self
+    {
+        $this->edge = $edge;
+        return $this;
+    }
+
+    /** ✅ Getters/Setters novos */
+    public function getWeight(): ?float
+    {
+        return $this->weight;
+    }
+    public function setWeight(?float $weight): self
+    {
+        $this->weight = $weight;
+        return $this;
+    }
+
+    public function getOrientation(): ?string
+    {
+        return $this->orientation;
+    }
+    public function setOrientation(?string $orientation): self
+    {
+        $this->orientation = $orientation;
+        return $this;
+    }
+
+    public function getMints(): ?array
+    {
+        return $this->mints;
+    }
+    public function setMints(?array $mints): self
+    {
+        $this->mints = $mints;
+        return $this;
+    }
+    public function getType(): ?string
+    {
+        return $this->type;
+    }
+    public function setType(?string $type): self
+    {
+        $this->type = $type;
+        return $this;
+    }
+
+    public function getValueText(): ?string
+    {
+        return $this->valueText;
+    }
+    public function setValueText(?string $valueText): self
+    {
+        $this->valueText = $valueText;
+        return $this;
+    }
+
+    public function getComposition(): ?array
+    {
+        return $this->composition;
+    }
+    public function setComposition(?array $composition): self
+    {
+        $this->composition = $composition;
+        return $this;
+    }
+
+    public function getTechnique(): ?array
+    {
+        return $this->technique;
+    }
+    public function setTechnique(?array $technique): self
+    {
+        $this->technique = $technique;
+        return $this;
+    }
+
+    public function getComments(): ?string
+    {
+        return $this->comments;
+    }
+    public function setComments(?string $comments): self
+    {
+        $this->comments = $comments;
+        return $this;
+    }
+
+    public function getRelatedTypes(): ?array
+    {
+        return $this->relatedTypes;
+    }
+    public function setRelatedTypes(?array $relatedTypes): self
+    {
+        $this->relatedTypes = $relatedTypes;
+        return $this;
+    }
+
+    public function getTags(): ?array
+    {
+        return $this->tags;
+    }
+    public function setTags(?array $tags): self
+    {
+        $this->tags = $tags;
+        return $this;
+    }
+
+    public function getReferenceCode (): ?array
+    {
+        return $this->referenceCode;
+    }
+    public function setReferenceCode (?array $referenceCode): self
+    {
+        $this->referenceCode  = $referenceCode ;
+        return $this;
+    }
+
+    public function getShape(): ?string
+    {
+        return $this->shape;
+    }
+    public function setShape(?string $shape): self
+    {
+        $this->shape = $shape;
+        return $this;
+    }
+
+    public function getObverseImg(): ?string
+    {
+        return $this->obverse_img;
+    }
+    public function setObverseImg(?string $obverse_img): self
+    {
+        $this->obverse_img = $obverse_img;
+        return $this;
+    }
+
+    public function getReverseImg(): ?string
+    {
+        return $this->reverse_img;
+    }
+    public function setReverseImg(?string $reverse_img): self
+    {
+        $this->reverse_img = $reverse_img;
+        return $this;
+    }
+
+    public function getEdgeImg(): ?string
+    {
+        return $this->edge_img;
+    }
+    public function setEdgeImg(?string $edge_img): self
+    {
+        $this->edge_img = $edge_img;
         return $this;
     }
 }
