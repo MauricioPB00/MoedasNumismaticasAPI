@@ -50,3 +50,8 @@ album_add:
     path: /api/album/add
     controller: App\Controller\AlbumController::albumAdd
     methods: POST
+
+album_get_me:
+    path: /api/album/me
+    controller: App\Controller\AlbumController::getAlbumUser
+    methods: GET

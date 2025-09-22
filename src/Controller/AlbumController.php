@@ -29,13 +29,12 @@ class AlbumController extends AbstractController
      */
     public function albumAdd(Request $request): JsonResponse
     {
-        $userJwt = $this->security->getUser(); // pode ser apenas UserInterface
+        $userJwt = $this->security->getUser();
         if (!$userJwt) {
             return $this->json(['error' => 'Usuário não autenticado'], 401);
         }
 
-        // Recupera a entidade User real
-        $user = $this->em->getRepository(User::class)->findOneBy(['email' => $userJwt->getUsername()]);
+        $user = $this->em->getRepository(User::class)->findOneBy(['email' => $userJwt->getUserIdentifier()]);
         if (!$user) {
             return $this->json(['error' => 'Usuário não encontrado'], 404);
         }
@@ -64,7 +63,25 @@ class AlbumController extends AbstractController
             return $this->json(['error' => 'Moeda não encontrada'], 404);
         }
 
-        // Cria associação
+        // Verifica se já existe AlbumCoin com mesmo album, coin e ano
+        $albumCoinRepo = $this->em->getRepository(AlbumCoin::class);
+        $existing = $albumCoinRepo->findOneBy([
+            'album' => $album,
+            'coin' => $coin,
+            'year' => $year,
+            'condition' => $condition,
+        ]);
+
+        if ($existing) {
+            // Já existe -> soma a quantidade
+            $existing->setQuantity($existing->getQuantity() + $quantity);
+
+            $this->em->flush();
+
+            return $this->json(['success' => 'Quantidade atualizada com sucesso']);
+        }
+
+        // Caso não exista, cria associação nova
         $albumCoin = new AlbumCoin();
         $albumCoin->setAlbum($album)
             ->setCoin($coin)
@@ -76,5 +93,50 @@ class AlbumController extends AbstractController
         $this->em->flush();
 
         return $this->json(['success' => 'Moeda adicionada ao álbum com sucesso']);
+    }
+
+
+    /**
+     * @Route("/album/me", name="album_get_me", methods={"GET"})
+     */
+    public function getAlbumUser(): JsonResponse
+    {
+        $userJwt = $this->security->getUser();
+        if (!$userJwt) {
+            return $this->json(['error' => 'Usuário não autenticado'], 401);
+        }
+
+        // Busca o usuário real no banco
+        $user = $this->em->getRepository(User::class)
+            ->findOneBy(['email' => $userJwt->getUserIdentifier()]);
+        if (!$user) {
+            return $this->json(['error' => 'Usuário não encontrado'], 404);
+        }
+
+        // Busca o álbum do usuário
+        $album = $this->em->getRepository(Album::class)->findOneBy(['user' => $user]);
+        if (!$album) {
+            return $this->json([]);
+        }
+
+        // Busca as moedas do álbum
+        $albumCoins = $this->em->getRepository(AlbumCoin::class)->findBy(['album' => $album]);
+
+        $result = [];
+        foreach ($albumCoins as $ac) {
+            $result[] = [
+                'coinId' => $ac->getCoin()->getId(),
+                'coinTitle' => preg_replace('/\s*\(.*?\)\s*/', '', $ac->getCoin()->getTitle()),
+                'minYear' => $ac->getCoin()->getMinYear(),
+                'maxYear' => $ac->getCoin()->getMaxYear(),
+                'obverse' => $ac->getCoin()->getObverse(),
+                'reverse' => $ac->getCoin()->getReverse(),
+                'year' => $ac->getYear(),
+                'quantity' => $ac->getQuantity(),
+                'condition' => $ac->getCondition()
+            ];
+        }
+
+        return $this->json($result);
     }
 }
