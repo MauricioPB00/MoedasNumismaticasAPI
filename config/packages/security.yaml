@@ -56,6 +56,7 @@ security:
         - { path: ^/api/coin/list, roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/api/coins/\d+, roles: IS_AUTHENTICATED_ANONYMOUSLY  }
         - { path: ^/api/informacao, roles: IS_AUTHENTICATED_FULLY }
+        - { path: ^/api/album/add, roles: IS_AUTHENTICATED_FULLY }
         - { path: ^/api/user, roles: IS_AUTHENTICATED_FULLY }
         - { path: ^/api/update, roles: IS_AUTHENTICATED_FULLY }
         - { path: ^/api,       roles: IS_AUTHENTICATED_FULLY }

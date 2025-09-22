@@ -5,6 +5,7 @@ namespace App\Entity;
 use App\Repository\UserRepository;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Security\Core\User\UserInterface;
+use App\Entity\Album;
 
 /**
  * @ORM\Entity(repositoryClass=UserRepository::class)
@@ -73,6 +74,11 @@ class User implements UserInterface
      * @ORM\Column(type="string", length=255, nullable=true)
      */
     private ?string $photo = null;
+
+    /**
+     * @ORM\OneToOne(targetEntity=Album::class, mappedBy="user", cascade={"persist", "remove"})
+     */
+    private $album;
 
     /**
      * @return string|null
@@ -233,7 +239,21 @@ class User implements UserInterface
     public function setPhoto(?string $photo): self
     {
         $this->photo = $photo;
-        
+
+        return $this;
+    }
+
+    public function getAlbum(): ?Album
+    {
+        return $this->album;
+    }
+
+    public function setAlbum(?Album $album): self
+    {
+        $this->album = $album;
+        if ($album && $album->getUser() !== $this) {
+            $album->setUser($this);
+        }
         return $this;
     }
 }

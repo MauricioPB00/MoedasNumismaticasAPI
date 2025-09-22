@@ -45,3 +45,8 @@ coin_show:
   path: /api/coins/{id}
   controller: App\Controller\CoinsController::show
   methods: GET
+
+album_add:
+    path: /api/album/add
+    controller: App\Controller\AlbumController::albumAdd
+    methods: POST
