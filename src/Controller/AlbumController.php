@@ -133,7 +133,8 @@ class AlbumController extends AbstractController
                 'reverse' => $ac->getCoin()->getReverse(),
                 'year' => $ac->getYear(),
                 'quantity' => $ac->getQuantity(),
-                'condition' => $ac->getCondition()
+                'condition' => $ac->getCondition(),
+                'category' => $ac->getCoin()->getCategory(),
             ];
         }
 
