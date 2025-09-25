@@ -55,3 +55,13 @@ album_get_me:
     path: /api/album/me
     controller: App\Controller\AlbumController::getAlbumUser
     methods: GET
+
+album_get_id:
+  path: /api/album/me/{id}
+  controller: App\Controller\AlbumController::getCoinUser
+  methods: GET
+
+album_remove:
+    path: /api/album/remove
+    controller: App\Controller\AlbumController::removeCoin
+    methods: POST
