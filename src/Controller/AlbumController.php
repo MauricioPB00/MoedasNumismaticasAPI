@@ -186,69 +186,80 @@ class AlbumController extends AbstractController
     }
 
     /**
-     * @Route("/album/remove", name="album_remove", methods={"POST"})
-     */
-    public function removeCoin(Request $request, EntityManagerInterface $em, Security $security): JsonResponse
-    {
-        $userJwt = $security->getUser();
-        if (!$userJwt) {
-            return $this->json(['error' => 'Usuário não autenticado'], 401);
-        }
-
-        $data = json_decode($request->getContent(), true);
-
-        $coinId = $data['coinId'] ?? null;
-        $year = $data['year'] ?? null;
-        $condition = $data['condition'] ?? null;
-        $quantityToRemove = (int) ($data['quantity'] ?? 0);
-
-        if (!$coinId || !$year || !$condition || $quantityToRemove <= 0) {
-            return $this->json(['error' => 'Dados inválidos'], 400);
-        }
-
-        // Busca usuário real no banco
-        $user = $em->getRepository(User::class)->findOneBy(['email' => $userJwt->getUserIdentifier()]);
-        if (!$user) {
-            return $this->json(['error' => 'Usuário não encontrado'], 404);
-        }
-
-        // Busca álbum do usuário
-        $album = $em->getRepository(Album::class)->findOneBy(['user' => $user]);
-        if (!$album) {
-            return $this->json(['error' => 'Álbum não encontrado'], 404);
-        }
-
-        // Busca o AlbumCoin correspondente
-        $albumCoin = $em->getRepository(AlbumCoin::class)->findOneBy([
-            'album' => $album,
-            'coin' => $coinId,
-            'year' => $year,
-            'condition' => $condition,
-        ]);
-
-        if (!$albumCoin) {
-            return $this->json(['error' => 'Moeda não encontrada no álbum'], 404);
-        }
-
-        if ($albumCoin->getQuantity() < $quantityToRemove) {
-            return $this->json(['error' => 'Quantidade maior do que disponível'], 400);
-        }
-
-        // Reduz a quantidade ou remove
-        $albumCoin->setQuantity($albumCoin->getQuantity() - $quantityToRemove);
-
-        if ($albumCoin->getQuantity() <= 0) {
-            $em->remove($albumCoin);
-        } else {
-            $em->persist($albumCoin);
-        }
-
-        $em->flush();
-
-        return $this->json([
-            'success' => true,
-            'removed' => $quantityToRemove,
-            'remaining' => $albumCoin->getQuantity() ?? 0
-        ]);
+ * @Route("/album/remove", name="album_remove", methods={"POST"})
+ */
+public function removeCoin(Request $request, EntityManagerInterface $em, Security $security): JsonResponse
+{
+    $userJwt = $security->getUser();
+    if (!$userJwt) {
+        return $this->json(['error' => 'Usuário não autenticado'], 401);
     }
+
+    $data = json_decode($request->getContent(), true);
+
+    $coinId = $data['coinId'] ?? null;
+    $year = $data['year'] ?? null;
+    $condition = $data['condition'] ?? null;
+    $quantityToRemove = (int) ($data['quantity'] ?? 0);
+
+    if (!$coinId || !$year || $quantityToRemove <= 0) {
+        return $this->json(['error' => 'Dados inválidos'], 400);
+    }
+
+    // Busca usuário real no banco
+    $user = $em->getRepository(User::class)->findOneBy(['email' => $userJwt->getUserIdentifier()]);
+    if (!$user) {
+        return $this->json(['error' => 'Usuário não encontrado'], 404);
+    }
+
+    // Busca álbum do usuário
+    $album = $em->getRepository(Album::class)->findOneBy(['user' => $user]);
+    if (!$album) {
+        return $this->json(['error' => 'Álbum não encontrado'], 404);
+    }
+
+    // Cria o QueryBuilder para tratar o caso de condition = NULL
+    $qb = $em->getRepository(AlbumCoin::class)->createQueryBuilder('ac');
+    $qb->where('ac.album = :album')
+       ->andWhere('ac.coin = :coin')
+       ->andWhere('ac.year = :year')
+       ->setParameter('album', $album)
+       ->setParameter('coin', $coinId)
+       ->setParameter('year', $year);
+
+    if ($condition === null || $condition === '') {
+        $qb->andWhere('ac.condition IS NULL');
+    } else {
+        $qb->andWhere('ac.condition = :condition')
+           ->setParameter('condition', $condition);
+    }
+
+    $albumCoin = $qb->getQuery()->getOneOrNullResult();
+
+    if (!$albumCoin) {
+        return $this->json(['error' => 'Moeda não encontrada no álbum'], 404);
+    }
+
+    if ($albumCoin->getQuantity() < $quantityToRemove) {
+        return $this->json(['error' => 'Quantidade maior do que disponível'], 400);
+    }
+
+    // Reduz a quantidade ou remove
+    $albumCoin->setQuantity($albumCoin->getQuantity() - $quantityToRemove);
+
+    if ($albumCoin->getQuantity() <= 0) {
+        $em->remove($albumCoin);
+    } else {
+        $em->persist($albumCoin);
+    }
+
+    $em->flush();
+
+    return $this->json([
+        'success' => true,
+        'removed' => $quantityToRemove,
+        'remaining' => $albumCoin->getQuantity() ?? 0
+    ]);
+}
+
 }
