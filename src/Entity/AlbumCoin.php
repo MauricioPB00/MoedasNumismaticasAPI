@@ -27,10 +27,17 @@ class AlbumCoin
     /**
      * Many AlbumCoin belong to one Coin
      * @ORM\ManyToOne(targetEntity=Coin::class)
-     * @ORM\JoinColumn(nullable=false, onDelete="CASCADE")
+     * @ORM\JoinColumn(nullable=true, onDelete="CASCADE")
      */
     private $coin;
 
+
+    /**
+     * Many AlbumCoin belong to one Coin
+     * @ORM\ManyToOne(targetEntity=Banknote::class)
+     * @ORM\JoinColumn(nullable=true, onDelete="CASCADE")
+     */
+    private $banknote;
     /**
      * @ORM\Column(type="integer", nullable=true)
      */
@@ -48,15 +55,62 @@ class AlbumCoin
      */
     private $quantity = 1;
 
-    public function getId(): ?int { return $this->id; }
-    public function getAlbum(): ?Album { return $this->album; }
-    public function setAlbum(?Album $album): self { $this->album = $album; return $this; }
-    public function getCoin(): ?Coin { return $this->coin; }
-    public function setCoin(?Coin $coin): self { $this->coin = $coin; return $this; }
-    public function getYear(): ?int { return $this->year; }
-    public function setYear(?int $year): self { $this->year = $year; return $this; }
-    public function getCondition(): ?string { return $this->condition; }
-    public function setCondition(?string $condition): self { $this->condition = $condition; return $this; }
-    public function getQuantity(): int { return $this->quantity; }
-    public function setQuantity(int $quantity): self { $this->quantity = $quantity; return $this; }
+    public function getId(): ?int
+    {
+        return $this->id;
+    }
+    public function getAlbum(): ?Album
+    {
+        return $this->album;
+    }
+    public function setAlbum(?Album $album): self
+    {
+        $this->album = $album;
+        return $this;
+    }
+    public function getCoin(): ?Coin
+    {
+        return $this->coin;
+    }
+    public function setCoin(?Coin $coin): self
+    {
+        $this->coin = $coin;
+        return $this;
+    }
+    public function getYear(): ?int
+    {
+        return $this->year;
+    }
+    public function setYear(?int $year): self
+    {
+        $this->year = $year;
+        return $this;
+    }
+    public function getCondition(): ?string
+    {
+        return $this->condition;
+    }
+    public function setCondition(?string $condition): self
+    {
+        $this->condition = $condition;
+        return $this;
+    }
+    public function getQuantity(): int
+    {
+        return $this->quantity;
+    }
+    public function setQuantity(int $quantity): self
+    {
+        $this->quantity = $quantity;
+        return $this;
+    }
+    public function getBanknote(): ?Banknote
+    {
+        return $this->banknote;
+    }
+    public function setBanknote(?Banknote $banknote): self
+    {
+        $this->banknote = $banknote;
+        return $this;
+    }
 }

@@ -3,6 +3,7 @@
 namespace App\Controller;
 
 use App\Entity\Coins;
+use App\Entity\Banknotes;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Doctrine\ORM\EntityManagerInterface;
 use Lexik\Bundle\JWTAuthenticationBundle\Services\JWTTokenManagerInterface;
@@ -28,50 +29,68 @@ class CoinsController extends AbstractController
     public function show($id, EntityManagerInterface $em): JsonResponse
     {
         $coin = $em->getRepository(Coins::class)->find($id);
+        $type = 'coin';
 
-    if (!$coin) {
-        return new JsonResponse(['error' => 'Moeda não encontrada'], 404);
-    }
+        if (!$coin) {
+            $coin = $em->getRepository(Banknotes::class)->find($id);
+            $type = 'banknote';
+        }
 
-     $data = [
-        'id' => $coin->getId(),
-        'title' => $coin->getTitle(),
-        'category' => $coin->getCategory(),
-        'url' => $coin->getUrl(),
-        'type' => $coin->getType(),
-        'issuer' => $coin->getIssuer(),
-        'minYear' => $coin->getMinYear(),
-        'maxYear' => $coin->getMaxYear(),
-        'ruler' => $coin->getRuler(),
-        'valueText' => $coin->getValueText(),
-        'valueNumeric' => $coin->getValueNumeric(),
-        'currencyName' => $coin->getCurrencyName(),
-        'currency' => $coin->getCurrency(),
-        'isDemonetized' => $coin->getIsDemonetized(),
-        'demonetizationDate' => $coin->getDemonetizationDate()
-            ? $coin->getDemonetizationDate()->format('Y-m-d')
-            : null,
-        'size' => $coin->getSize(),
-        'thickness' => $coin->getThickness(),
-        'shape' => $coin->getShape(),
-        'weight' => $coin->getWeight(),
-        'orientation' => $coin->getOrientation(),
-        'composition' => $coin->getComposition(),
-        'technique' => $coin->getTechnique(),
-        'obverse' => $coin->getObverse(),
-        'reverse' => $coin->getReverse(),
-        'edge' => $coin->getEdge(),
-        'comments' => $coin->getComments(),
-        'relatedTypes' => $coin->getRelatedTypes(),
-        'tags' => $coin->getTags(),
-        'referenceCode' => $coin->getReferenceCode(),
-        'mints' => $coin->getMints(),
-        'coinGroup' => $coin->getCoinGroup(),
-        'obverseImg' => $coin->getObverseImg(),
-        'reverseImg' => $coin->getReverseImg(),
-        'edgeImg' => $coin->getEdgeImg(),
-    ];
+        if (!$coin) {
+            return new JsonResponse(['error' => 'Item não encontrado'], 404);
+        }
 
-    return new JsonResponse($data);
+        $data = [
+            'id' => $coin->getId(),
+            'title' => $coin->getTitle(),
+            'category' => $coin->getCategory(),
+            'url' => $coin->getUrl(),
+            'type' => $coin->getType(),
+            'issuer' => $coin->getIssuer(),
+            'minYear' => $coin->getMinYear(),
+            'maxYear' => $coin->getMaxYear(),
+            'ruler' => $coin->getRuler(),
+            'valueText' => $coin->getValueText(),
+            'valueNumeric' => $coin->getValueNumeric(),
+            'currency' => $coin->getCurrency(),
+            'isDemonetized' => $coin->getIsDemonetized(),
+            'demonetizationDate' => $coin->getDemonetizationDate()
+                ? $coin->getDemonetizationDate()->format('Y-m-d')
+                : null,
+            'size' => $coin->getSize(),
+            'shape' => $coin->getShape(),
+            'composition' => $coin->getComposition(),
+            'obverse' => $coin->getObverse(),
+            'reverse' => $coin->getReverse(),
+            'comments' => $coin->getComments(),
+            'relatedTypes' => $coin->getRelatedTypes(),
+            'tags' => $coin->getTags(),
+            'obverseImg' => method_exists($coin, 'getObverseImg') ? $coin->getObverseImg() : null,
+            'reverseImg' => method_exists($coin, 'getReverseImg') ? $coin->getReverseImg() : null,
+            'entityType' => $type,
+        ];
+
+        if ($type === 'banknote') {
+            $data = array_merge($data, [
+                'issuingEntity' => $coin->getIssuingEntity(),
+                'size2' => $coin->getSize2(),
+                'series' => $coin->getSeries(),
+                'referenceCode' => $coin->getReferenceCode(),
+                'printers' => $coin->getPrinters(),
+            ]);
+        } else {
+            $data = array_merge($data, [
+                'thickness' => method_exists($coin, 'getThickness') ? $coin->getThickness() : null,
+                'weight' => method_exists($coin, 'getWeight') ? $coin->getWeight() : null,
+                'orientation' => method_exists($coin, 'getOrientation') ? $coin->getOrientation() : null,
+                'technique' => method_exists($coin, 'getTechnique') ? $coin->getTechnique() : null,
+                'edge' => method_exists($coin, 'getEdge') ? $coin->getEdge() : null,
+                'edgeImg' => method_exists($coin, 'getEdgeImg') ? $coin->getEdgeImg() : null,
+                'mints' => method_exists($coin, 'getMints') ? $coin->getMints() : null,
+                'coinGroup' => method_exists($coin, 'getCoinGroup') ? $coin->getCoinGroup() : null,
+            ]);
+        }
+
+        return new JsonResponse($data);
     }
 }

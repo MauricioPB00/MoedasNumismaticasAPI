@@ -31,5 +31,3 @@ foreach ($arquivos as $arquivo) {
         }
     }
 }
-
-echo "🚀 Renomeação concluída!\n";
