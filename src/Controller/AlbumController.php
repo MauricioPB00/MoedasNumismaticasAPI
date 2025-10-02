@@ -50,7 +50,6 @@ class AlbumController extends AbstractController
             return $this->json(['error' => 'coinId obrigatório'], 400);
         }
 
-        // Cria álbum se não existir
         $album = $user->getAlbum();
         if (!$album) {
             $album = new Album();
@@ -188,34 +187,53 @@ class AlbumController extends AbstractController
             return $this->json(['error' => 'Usuário não autenticado'], 401);
         }
 
-        // Busca o usuário real no banco
         $user = $this->em->getRepository(User::class)
             ->findOneBy(['email' => $userJwt->getUserIdentifier()]);
         if (!$user) {
             return $this->json(['error' => 'Usuário não encontrado'], 404);
         }
 
-        // Busca o álbum do usuário
         $album = $this->em->getRepository(Album::class)->findOneBy(['user' => $user]);
         if (!$album) {
             return $this->json([]);
         }
 
-        // Busca apenas as moedas do álbum que correspondem ao coinId da rota
-        $albumCoins = $this->em->getRepository(AlbumCoin::class)->findBy([
-            'album' => $album,
-            'coin'  => $id
-        ]);
+        $albumItems = $this->em->getRepository(AlbumCoin::class)->findBy(['album' => $album]);
 
         $result = [];
-        foreach ($albumCoins as $ac) {
-            $result[] = [
-                'coinId'    => $ac->getCoin()->getId(),
-                'year'      => $ac->getYear(),
-                'quantity'  => $ac->getQuantity(),
-                'condition' => $ac->getCondition(),
-                'category'  => $ac->getCoin()->getCategory(),
-            ];
+        foreach ($albumItems as $item) {
+            $coin = $item->getCoin();
+            $banknote = $item->getBanknote();
+
+            if ($coin && $coin->getId() === $id) {
+                $result[] = [
+                    'type' => 'coin',
+                    'id' => $coin->getId(),
+                    'title' => preg_replace('/\s*\(.*?\)\s*/', '', $coin->getTitle()),
+                    'minYear' => $coin->getMinYear(),
+                    'maxYear' => $coin->getMaxYear(),
+                    'obverse' => $coin->getObverse(),
+                    'reverse' => $coin->getReverse(),
+                    'year' => $item->getYear(),
+                    'quantity' => $item->getQuantity(),
+                    'condition' => $item->getCondition(),
+                    'category' => $coin->getCategory(),
+                ];
+            } elseif ($banknote && $banknote->getId() === $id) {
+                $result[] = [
+                    'type' => 'banknote',
+                    'id' => $banknote->getId(),
+                    'title' => preg_replace('/\s*\(.*?\)\s*/', '', $banknote->getTitle()),
+                    'minYear' => $banknote->getMinYear(),
+                    'maxYear' => $banknote->getMaxYear(),
+                    'obverse' => method_exists($banknote, 'getObverse') ? $banknote->getObverse() : null,
+                    'reverse' => method_exists($banknote, 'getReverse') ? $banknote->getReverse() : null,
+                    'year' => $item->getYear(),
+                    'quantity' => $item->getQuantity(),
+                    'condition' => $item->getCondition(),
+                    'category' => $banknote->getCategory(),
+                ];
+            }
         }
 
         return $this->json($result);
@@ -233,60 +251,69 @@ class AlbumController extends AbstractController
 
         $data = json_decode($request->getContent(), true);
 
-        $coinId = $data['coinId'] ?? null;
+        $itemId = $data['coinId'] ?? null;
         $year = $data['year'] ?? null;
         $condition = $data['condition'] ?? null;
         $quantityToRemove = (int) ($data['quantity'] ?? 0);
 
-        if (!$coinId || !$year || $quantityToRemove <= 0) {
+        if (!$itemId || !$year || $quantityToRemove <= 0) {
             return $this->json(['error' => 'Dados inválidos'], 400);
         }
 
-        // Busca usuário real no banco
         $user = $em->getRepository(User::class)->findOneBy(['email' => $userJwt->getUserIdentifier()]);
         if (!$user) {
             return $this->json(['error' => 'Usuário não encontrado'], 404);
         }
 
-        // Busca álbum do usuário
         $album = $em->getRepository(Album::class)->findOneBy(['user' => $user]);
         if (!$album) {
             return $this->json(['error' => 'Álbum não encontrado'], 404);
         }
 
-        // Cria o QueryBuilder para tratar o caso de condition = NULL
-        $qb = $em->getRepository(AlbumCoin::class)->createQueryBuilder('ac');
-        $qb->where('ac.album = :album')
-            ->andWhere('ac.coin = :coin')
+        $coin = $em->getRepository(Coin::class)->find($itemId);
+        $banknote = null;
+
+        if (!$coin) {
+            $banknote = $em->getRepository(Banknote::class)->find($itemId);
+            if (!$banknote) {
+                return $this->json(['error' => 'Item não encontrado (nem moeda nem cédula)'], 404);
+            }
+        }
+
+        $qb = $em->getRepository(AlbumCoin::class)->createQueryBuilder('ac')
+            ->where('ac.album = :album')
             ->andWhere('ac.year = :year')
             ->setParameter('album', $album)
-            ->setParameter('coin', $coinId)
             ->setParameter('year', $year);
+
+        if ($coin) {
+            $qb->andWhere('ac.coin = :coin')->setParameter('coin', $coin);
+        } else {
+            $qb->andWhere('ac.banknote = :banknote')->setParameter('banknote', $banknote);
+        }
 
         if ($condition === null || $condition === '') {
             $qb->andWhere('ac.condition IS NULL');
         } else {
-            $qb->andWhere('ac.condition = :condition')
-                ->setParameter('condition', $condition);
+            $qb->andWhere('ac.condition = :condition')->setParameter('condition', $condition);
         }
 
-        $albumCoin = $qb->getQuery()->getOneOrNullResult();
+        $albumItem = $qb->getQuery()->getOneOrNullResult();
 
-        if (!$albumCoin) {
-            return $this->json(['error' => 'Moeda não encontrada no álbum'], 404);
+        if (!$albumItem) {
+            return $this->json(['error' => 'Item não encontrado no álbum'], 404);
         }
 
-        if ($albumCoin->getQuantity() < $quantityToRemove) {
+        if ($albumItem->getQuantity() < $quantityToRemove) {
             return $this->json(['error' => 'Quantidade maior do que disponível'], 400);
         }
 
-        // Reduz a quantidade ou remove
-        $albumCoin->setQuantity($albumCoin->getQuantity() - $quantityToRemove);
-
-        if ($albumCoin->getQuantity() <= 0) {
-            $em->remove($albumCoin);
+        $novaQuantidade = $albumItem->getQuantity() - $quantityToRemove;
+        if ($novaQuantidade <= 0) {
+            $em->remove($albumItem);
         } else {
-            $em->persist($albumCoin);
+            $albumItem->setQuantity($novaQuantidade);
+            $em->persist($albumItem);
         }
 
         $em->flush();
@@ -294,7 +321,8 @@ class AlbumController extends AbstractController
         return $this->json([
             'success' => true,
             'removed' => $quantityToRemove,
-            'remaining' => $albumCoin->getQuantity() ?? 0
+            'remaining' => $novaQuantidade > 0 ? $novaQuantidade : 0,
+            'type' => $coin ? 'coin' : 'banknote'
         ]);
     }
 }
