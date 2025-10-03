@@ -176,6 +176,56 @@ class AlbumController extends AbstractController
         return $this->json($result);
     }
 
+    /**
+     * @Route("/album/me/map", name="album_get_me_map", methods={"GET"})
+     */
+    public function getAlbumUserMap(): JsonResponse
+    {
+        $userJwt = $this->security->getUser();
+        if (!$userJwt) {
+            return $this->json(['error' => 'Usuário não autenticado'], 401);
+        }
+
+        $user = $this->em->getRepository(User::class)
+            ->findOneBy(['email' => $userJwt->getUserIdentifier()]);
+        if (!$user) {
+            return $this->json(['error' => 'Usuário não encontrado'], 404);
+        }
+
+        $album = $this->em->getRepository(Album::class)->findOneBy(['user' => $user]);
+        if (!$album) {
+            return $this->json([]);
+        }
+
+        $albumItems = $this->em->getRepository(AlbumCoin::class)->findBy(['album' => $album]);
+
+        $result = [];
+        foreach ($albumItems as $item) {
+            $coin = $item->getCoin();
+            $banknote = $item->getBanknote();
+
+            if ($coin) {
+                $result[] = [
+                    'type' => 'coin',
+                    'id' => $coin->getId(),
+                    'quantity' => $item->getQuantity(),
+                    'category' => $coin->getCategory(),
+                    'issuer' => $coin->getIssuer(),
+                ];
+            } elseif ($banknote) {
+                $result[] = [
+                    'type' => 'banknote',
+                    'id' => $banknote->getId(),
+                    'quantity' => $item->getQuantity(),
+                    'category' => $banknote->getCategory(),
+                    'issuer' => $banknote->getIssuer(),
+                ];
+            }
+        }
+
+        return $this->json($result);
+    }
+
 
     /**
      * @Route("/album/me/{id}", name="album_get_id", methods={"GET"})
