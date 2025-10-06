@@ -4,6 +4,7 @@ namespace App\Controller;
 
 use App\Entity\Coins;
 use App\Entity\BanknoteInfo;
+use App\Entity\CoinInfo;
 use App\Entity\Banknotes;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Doctrine\ORM\EntityManagerInterface;
@@ -100,6 +101,25 @@ class CoinsController extends AbstractController
                 'banknoteInfo' => $banknoteInfoArray,
             ]);
         } else {
+            $coinInfos = $em->getRepository(CoinInfo::class)
+                ->findBy(['type_id' => $coin->getId()]);
+
+            usort($coinInfos, function ($a, $b) {
+                return $a->getYear() <=> $b->getYear();
+            });
+
+            $coinInfosArray = array_map(function ($info) {
+                return [
+                    'prices' => $info->getPrices(),
+                    'year_info' => $info->getYear(),
+                    'min_year' => $info->getMinYear(),
+                    'max_year' => $info->getMaxYear(),
+                    'mintage' => $info->getMintage(),
+                    'issue_id' => $info->getIssueId(),
+                    'type_id' => $info->getTypeId(),
+                ];
+            }, $coinInfos);
+
             $data = array_merge($data, [
                 'thickness' => method_exists($coin, 'getThickness') ? $coin->getThickness() : null,
                 'weight' => method_exists($coin, 'getWeight') ? $coin->getWeight() : null,
@@ -109,6 +129,7 @@ class CoinsController extends AbstractController
                 'edgeImg' => method_exists($coin, 'getEdgeImg') ? $coin->getEdgeImg() : null,
                 'mints' => method_exists($coin, 'getMints') ? $coin->getMints() : null,
                 'coinGroup' => method_exists($coin, 'getCoinGroup') ? $coin->getCoinGroup() : null,
+                'coinInfo' => $coinInfosArray,
             ]);
         }
 
