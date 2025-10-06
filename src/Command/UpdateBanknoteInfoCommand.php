@@ -82,6 +82,11 @@ class UpdateBanknoteInfoCommand extends Command
                 $entity->setYear((int) round($item['year']));
             }
 
+            # Rodar depois para atualizar os gregorian_year
+
+            // if (isset($item['gregorian_year'])) {
+            //     $entity->setYear((int) round($item['gregorian_year']));
+            // }
             $this->em->persist($entity);
 
             if (++$count % 50 === 0) {

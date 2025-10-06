@@ -3,6 +3,7 @@
 namespace App\Controller;
 
 use App\Entity\Coins;
+use App\Entity\BanknoteInfo;
 use App\Entity\Banknotes;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Doctrine\ORM\EntityManagerInterface;
@@ -71,12 +72,32 @@ class CoinsController extends AbstractController
         ];
 
         if ($type === 'banknote') {
+            $banknoteInfos = $em->getRepository(BanknoteInfo::class)
+                ->findBy(['type_id' => $coin->getId()]);
+
+            usort($banknoteInfos, function ($a, $b) {
+                return $a->getYear() <=> $b->getYear();
+            });
+
+            $banknoteInfoArray = array_map(function ($info) {
+                return [
+                    'prices' => $info->getPrices(),
+                    'year_info' => $info->getYear(),
+                    'min_year' => $info->getMinYear(),
+                    'max_year' => $info->getMaxYear(),
+                    'mintage' => $info->getMintage(),
+                    'issue_id' => $info->getIssueId(),
+                    'type_id' => $info->getTypeId(),
+                ];
+            }, $banknoteInfos);
+
             $data = array_merge($data, [
                 'issuingEntity' => $coin->getIssuingEntity(),
                 'size2' => $coin->getSize2(),
                 'series' => $coin->getSeries(),
                 'referenceCode' => $coin->getReferenceCode(),
                 'printers' => $coin->getPrinters(),
+                'banknoteInfo' => $banknoteInfoArray,
             ]);
         } else {
             $data = array_merge($data, [
