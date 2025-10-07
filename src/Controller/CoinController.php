@@ -35,7 +35,7 @@ public function coinList(EntityManagerInterface $em): JsonResponse
     $coinData = array_map(function(Coin $coin) {
         return [
             'id' => $coin->getId(),
-            'title' => $coin->getTitle(),
+            'title' => preg_replace('/\s*\(.*?\)\s*/', '', $coin->getTitle()),
             'category' => $coin->getCategory(),
             'issuer' => $coin->getIssuer(),
             'min_year' => $coin->getMinYear(),
@@ -48,7 +48,7 @@ public function coinList(EntityManagerInterface $em): JsonResponse
     $banknoteData = array_map(function(Banknote $note) {
         return [
             'id' => $note->getId(),
-            'title' => $note->getTitle(),
+            'title' => preg_replace('/\s*\(.*?\)\s*/', '', $note->getTitle()),
             'category' => $note->getCategory(),
             'issuer' => $note->getIssuer(),
             'min_year' => $note->getMinYear(),
