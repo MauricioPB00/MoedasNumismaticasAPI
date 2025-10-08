@@ -29,17 +29,20 @@ public function __construct(RequestStack $requestStack)
  */
 public function onAuthenticationSuccessResponse(AuthenticationSuccessEvent $event )
 {
-    $data = $event->getData();
-    $request = $this->requestStack->getCurrentRequest();
+   $data = $event->getData();
+        $user = $event->getUser();
+        $request = $this->requestStack->getCurrentRequest();
 
-    $data['ip'] = $request->getClientIp();
-    $data['permi'] = $event->getUser()->getPermi();
-    $data['name'] = $event->getUser()->getName();
-    $data['id'] = $event->getUser()->getId();
-    $data['nome'] = $event->getUser()->getName();
-    $data['email'] = $event->getUser()->getEmail();
+        if (!is_object($user)) {
+            return;
+        }
 
- 
-    $event->setData($data);
+        $data['ip'] = $request->getClientIp();
+        $data['id'] = $user->getId();
+        $data['name'] = $user->getName();
+        $data['email'] = $user->getEmail();
+        $data['permi'] = $user->getPermi(); 
+        $data['roles'] = $user->getRoles();
+        $event->setData($data);
 }
 }
