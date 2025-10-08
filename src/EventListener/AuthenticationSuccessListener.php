@@ -42,7 +42,7 @@ public function onAuthenticationSuccessResponse(AuthenticationSuccessEvent $even
         $data['name'] = $user->getName();
         $data['email'] = $user->getEmail();
         $data['permi'] = $user->getPermi(); 
-        $data['roles'] = $user->getRoles();
+        $data['roles'] = $event->getUser()->getRoles();
         $event->setData($data);
 }
 }

@@ -126,12 +126,13 @@ class User implements UserInterface
 
         return $this;
     }
-    /**
-     * @return array|string[]
-     */
+
     public function getRoles(): array
     {
-        return array('ROLE_USER');
+        if ($this->permi === 2 || $this->permi === "2") {
+            return ['ROLE_ADMIN'];
+        }
+        return ['ROLE_USER'];
     }
 
     public function eraseCredentials() {}
