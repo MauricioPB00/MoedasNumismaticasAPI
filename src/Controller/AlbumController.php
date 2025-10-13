@@ -155,6 +155,7 @@ class AlbumController extends AbstractController
                     'quantity' => $item->getQuantity(),
                     'condition' => $item->getCondition(),
                     'category' => $coin->getCategory(),
+                    'issuer' => $coin->getIssuer(),
                 ];
             } elseif ($banknote) {
                 $result[] = [
@@ -169,6 +170,7 @@ class AlbumController extends AbstractController
                     'quantity' => $item->getQuantity(),
                     'condition' => $item->getCondition(),
                     'category' => $banknote->getCategory(),
+                    'issuer' => $banknote->getIssuer(),
                 ];
             }
         }
