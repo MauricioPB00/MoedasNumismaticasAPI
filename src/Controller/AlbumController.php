@@ -3,6 +3,8 @@
 namespace App\Controller;
 
 use App\Entity\AlbumCoin;
+use App\Entity\BanknoteInfo;
+use App\Entity\CoinInfo;
 use App\Entity\Banknote;
 use App\Entity\Album;
 use App\Entity\Coin;
@@ -138,11 +140,74 @@ class AlbumController extends AbstractController
         $albumItems = $this->em->getRepository(AlbumCoin::class)->findBy(['album' => $album]);
 
         $result = [];
+        $gradesMap = [
+            null => 'BC',
+            'FC' => 'FDC',
+            'S' => 'SOB',
+            'MBC' => 'MBC',
+            'BC' => 'BC'
+        ];
+
         foreach ($albumItems as $item) {
             $coin = $item->getCoin();
             $banknote = $item->getBanknote();
 
+            $calculateUnitPrice = function ($infos, $year, $condition) use ($gradesMap) {
+                if (empty($infos)) return null;
+
+                $mappedGrade = $gradesMap[$condition] ?? 'BC';
+                $yearMatch = null;
+
+                foreach ($infos as $info) {
+                    if ($info['year_info'] == $year && !empty($info['prices'])) {
+                        $yearMatch = $info;
+                        break;
+                    }
+                }
+
+                if (!$yearMatch) {
+                    foreach ($infos as $info) {
+                        if (!empty($info['prices'])) {
+                            $yearMatch = $info;
+                            break;
+                        }
+                    }
+                }
+
+                if (!$yearMatch || empty($yearMatch['prices'])) return null;
+
+                foreach ($yearMatch['prices'] as $priceObj) {
+                    if ($priceObj['grade'] === $mappedGrade) {
+                        return $priceObj['price'];
+                    }
+                }
+
+                $pricesOnly = array_map(fn($p) => $p['price'], $yearMatch['prices']);
+                return !empty($pricesOnly) ? max($pricesOnly) : null;
+            };
+
             if ($coin) {
+                $coinInfos = $this->em->getRepository(CoinInfo::class)->findBy(['type_id' => $coin->getId()]);
+                usort($coinInfos, fn($a, $b) => $a->getYear() <=> $b->getYear());
+
+                $coinInfoArray = array_map(function ($info) {
+                    return [
+                        'year_info' => $info->getYear(),
+                        'min_year' => $info->getMinYear(),
+                        'max_year' => $info->getMaxYear(),
+                        'mintage' => $info->getMintage(),
+                        'issue_id' => $info->getIssueId(),
+                        'type_id' => $info->getTypeId(),
+                        'prices' => $info->getPrices()
+                    ];
+                }, $coinInfos);
+
+                $unitPrice = $calculateUnitPrice($coinInfoArray, $item->getYear(), $item->getCondition());
+                if ($unitPrice !== null) {
+                    $unitPrice *= 7.5; 
+                }
+                $totalPrice = $unitPrice * $item->getQuantity();
+
                 $result[] = [
                     'type' => 'coin',
                     'id' => $coin->getId(),
@@ -156,8 +221,34 @@ class AlbumController extends AbstractController
                     'condition' => $item->getCondition(),
                     'category' => $coin->getCategory(),
                     'issuer' => $coin->getIssuer(),
+                    'prices' => $coinInfoArray,
+                    'unitValue' => $unitPrice,
+                    'totalValue' => $totalPrice
                 ];
-            } elseif ($banknote) {
+            }
+
+            if ($banknote) {
+                $bankInfos = $this->em->getRepository(BanknoteInfo::class)->findBy(['type_id' => $banknote->getId()]);
+                usort($bankInfos, fn($a, $b) => $a->getYear() <=> $b->getYear());
+
+                $bankInfoArray = array_map(function ($info) {
+                    return [
+                        'year_info' => $info->getYear(),
+                        'min_year' => $info->getMinYear(),
+                        'max_year' => $info->getMaxYear(),
+                        'mintage' => $info->getMintage(),
+                        'issue_id' => $info->getIssueId(),
+                        'type_id' => $info->getTypeId(),
+                        'prices' => $info->getPrices()
+                    ];
+                }, $bankInfos);
+
+                $unitPrice = $calculateUnitPrice($bankInfoArray, $item->getYear(), $item->getCondition());
+                if ($unitPrice !== null) {
+                    $unitPrice *= 7.5;
+                }
+                $totalPrice = $unitPrice * $item->getQuantity();
+
                 $result[] = [
                     'type' => 'banknote',
                     'id' => $banknote->getId(),
@@ -171,10 +262,12 @@ class AlbumController extends AbstractController
                     'condition' => $item->getCondition(),
                     'category' => $banknote->getCategory(),
                     'issuer' => $banknote->getIssuer(),
+                    'prices' => $bankInfoArray,
+                    'unitValue' => $unitPrice,
+                    'totalValue' => $totalPrice
                 ];
             }
         }
-
         return $this->json($result);
     }
 
