@@ -6675,15 +6675,6 @@
     "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/5f5b88bebdc7b9.91355828-180.jpg"
   },
   {
-    "id": 428087,
-    "title": "5000 Cruzeiros (Pattern - 200th anniversary of Tiradentes' death)",
-    "category": "coin",
-    "issuer": {
-      "code": "bresil",
-      "name": "Brazil"
-    }
-  },
-  {
     "id": 14155,
     "title": "5000 Cruzeiros (200th anniversary of Tiradentes' death)",
     "category": "coin",
@@ -6775,17 +6766,6 @@
     "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2507-180.jpg"
   },
   {
-    "id": 343994,
-    "title": "5 Centavos Real Flat Disc (2nd. Family)",
-    "category": "coin",
-    "issuer": {
-      "code": "bresil",
-      "name": "Brazil"
-    },
-    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/637b32edd223d2.95536745-180.jpg",
-    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/637b32ee35c8f7.25174490-180.jpg"
-  },
-  {
     "id": 1104,
     "title": "5 Centavos",
     "category": "coin",
@@ -6825,17 +6805,6 @@
     "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415b3e527e237.08405048-180.jpg"
   },
   {
-    "id": 343993,
-    "title": "10 Centavos Real Flat Disc (2nd. Family)",
-    "category": "coin",
-    "issuer": {
-      "code": "bresil",
-      "name": "Brazil"
-    },
-    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/637b331374ed08.20951646-180.jpg",
-    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/637b3313b6f6d6.20553215-180.jpg"
-  },
-  {
     "id": 2822,
     "title": "10 Centavos",
     "category": "coin",
@@ -6873,17 +6842,6 @@
     "max_year": 2024,
     "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415b4c0a6da96.46073896-180.jpg",
     "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/6415b4c18b1fc0.64531988-180.jpg"
-  },
-  {
-    "id": 343991,
-    "title": "25 Centavos Real Flat Disc (2nd. Family)",
-    "category": "coin",
-    "issuer": {
-      "code": "bresil",
-      "name": "Brazil"
-    },
-    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/637b3338d20537.85903954-180.jpg",
-    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/637b3339366c20.56978752-180.jpg"
   },
   {
     "id": 2242,
@@ -6938,17 +6896,6 @@
     "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/40-180.jpg"
   },
   {
-    "id": 343990,
-    "title": "50 Centavos Real Flat Disc (2nd.Family)",
-    "category": "coin",
-    "issuer": {
-      "code": "bresil",
-      "name": "Brazil"
-    },
-    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/637b335f031f88.02893276-180.jpg",
-    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/637b335f575c04.09275298-180.jpg"
-  },
-  {
     "id": 2823,
     "title": "50 Centavos",
     "category": "coin",
@@ -6999,17 +6946,6 @@
     "max_year": 2012,
     "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2039-180.jpg",
     "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/2040-180.jpg"
-  },
-  {
-    "id": 343988,
-    "title": "1 Real Flat Disc (2nd. Family)",
-    "category": "coin",
-    "issuer": {
-      "code": "bresil",
-      "name": "Brazil"
-    },
-    "obverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/637b3382853026.17334554-180.jpg",
-    "reverse_thumbnail": "https://en.numista.com/catalogue/photos/bresil/637b3382dc6d30.10032605-180.jpg"
   },
   {
     "id": 3198,

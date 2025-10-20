@@ -31577,12 +31577,6 @@
     "prices": []
   },
   {
-    "type_id": 428087,
-    "issue_id": 885489,
-    "currency": "EUR",
-    "prices": []
-  },
-  {
     "type_id": 14155,
     "issue_id": 71124,
     "currency": "EUR",
@@ -32185,12 +32179,6 @@
         "price": 0.644386
       }
     ]
-  },
-  {
-    "type_id": 343994,
-    "issue_id": 750375,
-    "currency": "EUR",
-    "prices": []
   },
   {
     "type_id": 1104,
@@ -33274,12 +33262,6 @@
     "prices": []
   },
   {
-    "type_id": 343993,
-    "issue_id": 750374,
-    "currency": "EUR",
-    "prices": []
-  },
-  {
     "type_id": 2822,
     "issue_id": 13895,
     "currency": "EUR",
@@ -34331,12 +34313,6 @@
     "prices": []
   },
   {
-    "type_id": 343991,
-    "issue_id": 750372,
-    "currency": "EUR",
-    "prices": []
-  },
-  {
     "type_id": 2242,
     "issue_id": 12248,
     "currency": "EUR",
@@ -35284,12 +35260,6 @@
     "prices": []
   },
   {
-    "type_id": 343990,
-    "issue_id": 750371,
-    "currency": "EUR",
-    "prices": []
-  },
-  {
     "type_id": 2823,
     "issue_id": 13896,
     "currency": "EUR",
@@ -36186,12 +36156,6 @@
         "price": 322.83
       }
     ]
-  },
-  {
-    "type_id": 343988,
-    "issue_id": 750369,
-    "currency": "EUR",
-    "prices": []
   },
   {
     "type_id": 3198,
