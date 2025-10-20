@@ -40,9 +40,15 @@ coin_list:
     path: /api/coin/list
     controller: App\Controller\CoinController::coinList
     methods: GET
+
 coin_list_collection:
     path: /api/coin/list/collection
     controller: App\Controller\CoinController::coinListCollection
+    methods: GET
+
+coin_list_collection_pdf:
+    path: /api/coin/list/collection/pdf
+    controller: App\Controller\CoinController::coinListCollectionPdf
     methods: GET
 
 coin_show:

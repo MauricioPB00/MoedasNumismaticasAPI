@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 namespace App\Controller;
 
@@ -14,7 +14,7 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class CoinController extends AbstractController
 {
-     private $em;
+    private $em;
     private JWTTokenManagerInterface $jwtManager;
 
     public function __construct(EntityManagerInterface $em, JWTTokenManagerInterface $jwtManager)
@@ -24,83 +24,122 @@ class CoinController extends AbstractController
     }
 
 
-/**
- * @Route("/coin/list", name="coin_list", methods={"GET"})
- */
-public function coinList(EntityManagerInterface $em): JsonResponse
-{
-    $coins = $em->getRepository(Coin::class)->findAll();
-    $banknotes = $em->getRepository(Banknote::class)->findAll();
+    /**
+     * @Route("/coin/list", name="coin_list", methods={"GET"})
+     */
+    public function coinList(EntityManagerInterface $em): JsonResponse
+    {
+        $coins = $em->getRepository(Coin::class)->findAll();
+        $banknotes = $em->getRepository(Banknote::class)->findAll();
 
-    $coinData = array_map(function(Coin $coin) {
-        return [
-            'id' => $coin->getId(),
-            'title' => preg_replace('/\s*\(.*?\)\s*/', '', $coin->getTitle()),
-            'category' => $coin->getCategory(),
-            'issuer' => $coin->getIssuer(),
-            'min_year' => $coin->getMinYear(),
-            'max_year' => $coin->getMaxYear(),
-            'obverse' => $coin->getObverse(),
-            'reverse' => $coin->getReverse(),
-        ];
-    }, $coins);
+        $coinData = array_map(function (Coin $coin) {
+            return [
+                'id' => $coin->getId(),
+                'title' => preg_replace('/\s*\(.*?\)\s*/', '', $coin->getTitle()),
+                'category' => $coin->getCategory(),
+                'issuer' => $coin->getIssuer(),
+                'min_year' => $coin->getMinYear(),
+                'max_year' => $coin->getMaxYear(),
+                'obverse' => $coin->getObverse(),
+                'reverse' => $coin->getReverse(),
+            ];
+        }, $coins);
 
-    $banknoteData = array_map(function(Banknote $note) {
-        return [
-            'id' => $note->getId(),
-            'title' => preg_replace('/\s*\(.*?\)\s*/', '', $note->getTitle()),
-            'category' => $note->getCategory(),
-            'issuer' => $note->getIssuer(),
-            'min_year' => $note->getMinYear(),
-            'max_year' => $note->getMaxYear(),
-            'obverse' => $note->getObverse(),
-            'reverse' => $note->getReverse(),
-        ];
-    }, $banknotes);
+        $banknoteData = array_map(function (Banknote $note) {
+            return [
+                'id' => $note->getId(),
+                'title' => preg_replace('/\s*\(.*?\)\s*/', '', $note->getTitle()),
+                'category' => $note->getCategory(),
+                'issuer' => $note->getIssuer(),
+                'min_year' => $note->getMinYear(),
+                'max_year' => $note->getMaxYear(),
+                'obverse' => $note->getObverse(),
+                'reverse' => $note->getReverse(),
+            ];
+        }, $banknotes);
 
-    $allData = array_merge($coinData, $banknoteData);
+        $allData = array_merge($coinData, $banknoteData);
 
-    return new JsonResponse($allData);
-}
+        return new JsonResponse($allData);
+    }
 
-/**
- * @Route("/coin/list/collection", name="coin_list_collection", methods={"GET"})
- */
-public function coinListCollection(EntityManagerInterface $em): JsonResponse
-{
-    $coins = $em->getRepository(Coin::class)->findAll();
-    $banknotes = $em->getRepository(Banknote::class)->findAll();
+    /**
+     * @Route("/coin/list/collection", name="coin_list_collection", methods={"GET"})
+     */
+    public function coinListCollection(EntityManagerInterface $em): JsonResponse
+    {
+        $coins = $em->getRepository(Coin::class)->findAll();
+        $banknotes = $em->getRepository(Banknote::class)->findAll();
 
-    $coinData = array_map(function(Coin $coin) {
-        return [
-            'id' => $coin->getId(),
-            'title' => preg_replace('/\s*\(.*?\)\s*/', '', $coin->getTitle()),
-            'category' => $coin->getCategory(),
-            'issuer' => $coin->getIssuer(),
-            'min_year' => $coin->getMinYear(),
-            'max_year' => $coin->getMaxYear(),
-            'obverse' => $coin->getObverse(),
-            'reverse' => $coin->getReverse(),
-        ];
-    }, $coins);
+        $coinData = array_map(function (Coin $coin) {
+            return [
+                'id' => $coin->getId(),
+                'title' => preg_replace('/\s*\(.*?\)\s*/', '', $coin->getTitle()),
+                'category' => $coin->getCategory(),
+                'issuer' => $coin->getIssuer(),
+                'min_year' => $coin->getMinYear(),
+                'max_year' => $coin->getMaxYear(),
+                'obverse' => $coin->getObverse(),
+                'reverse' => $coin->getReverse(),
+            ];
+        }, $coins);
 
-    $banknoteData = array_map(function(Banknote $note) {
-        return [
-            'id' => $note->getId(),
-            'title' => preg_replace('/\s*\(.*?\)\s*/', '', $note->getTitle()),
-            'category' => $note->getCategory(),
-            'issuer' => $note->getIssuer(),
-            'min_year' => $note->getMinYear(),
-            'max_year' => $note->getMaxYear(),
-            'obverse' => $note->getObverse(),
-            'reverse' => $note->getReverse(),
-        ];
-    }, $banknotes);
+        $banknoteData = array_map(function (Banknote $note) {
+            return [
+                'id' => $note->getId(),
+                'title' => preg_replace('/\s*\(.*?\)\s*/', '', $note->getTitle()),
+                'category' => $note->getCategory(),
+                'issuer' => $note->getIssuer(),
+                'min_year' => $note->getMinYear(),
+                'max_year' => $note->getMaxYear(),
+                'obverse' => $note->getObverse(),
+                'reverse' => $note->getReverse(),
+            ];
+        }, $banknotes);
 
-    $allData = array_merge($coinData, $banknoteData);
+        $allData = array_merge($coinData, $banknoteData);
 
-    return new JsonResponse($allData);
-}
+        return new JsonResponse($allData);
+    }
+
+    /**
+     * @Route("/coin/list/collection/pdf", name="coin_list_collection_pdf", methods={"GET"})
+     */
+    public function coinListCollectionPdf(EntityManagerInterface $em): JsonResponse
+    {
+        $coins = $em->getRepository(Coin::class)->findAll();
+        $banknotes = $em->getRepository(Banknote::class)->findAll();
+
+        $coinData = array_map(function (Coin $coin) {
+            return [
+                'id' => $coin->getId(),
+                'title' => $coin->getTitle(),
+                'category' => $coin->getCategory(),
+                'issuer' => $coin->getIssuer(),
+                'min_year' => $coin->getMinYear(),
+                'max_year' => $coin->getMaxYear(),
+                'obverse' => $coin->getObverse(),
+                'reverse' => $coin->getReverse(),
+            ];
+        }, $coins);
+
+        $banknoteData = array_map(function (Banknote $note) {
+            return [
+                'id' => $note->getId(),
+                'title' => $note->getTitle(),
+                'category' => $note->getCategory(),
+                'issuer' => $note->getIssuer(),
+                'min_year' => $note->getMinYear(),
+                'max_year' => $note->getMaxYear(),
+                'obverse' => $note->getObverse(),
+                'reverse' => $note->getReverse(),
+            ];
+        }, $banknotes);
+
+        $allData = array_merge($coinData, $banknoteData);
+
+        return new JsonResponse($allData);
+    }
 
     /**
      * @Route("/moedas", name="moedas_create", methods={"POST"})
