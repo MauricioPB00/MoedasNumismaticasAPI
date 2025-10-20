@@ -8,7 +8,7 @@ use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
-// php bin/console app:import-coins-detalhes
+// php bin/console app:import-coins-detailed
 
 class ImportCoinsDetailedCommand extends Command
 {
@@ -29,7 +29,7 @@ class ImportCoinsDetailedCommand extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
-        $jsonFile = __DIR__ . '/../../public/json/moedas_detalhes.json';
+        $jsonFile = __DIR__ . '/../../public/json/moedas_detalhadas_uruguai.json';
 
         if (!file_exists($jsonFile)) {
             $output->writeln('<error>Arquivo moedas_detalhes.json não encontrado!</error>');
