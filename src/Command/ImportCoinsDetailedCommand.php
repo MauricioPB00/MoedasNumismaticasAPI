@@ -31,7 +31,7 @@ class ImportCoinsDetailedCommand extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
-        $jsonFile = __DIR__ . '/../../public/json/moedas_detalhadas_uruguai.json';
+        $jsonFile = __DIR__ . '/../../public/json/moedas_detalhadas.json';
 
         if (!file_exists($jsonFile)) {
             $output->writeln('<error>Arquivo moedas_detalhes.json não encontrado!</error>');

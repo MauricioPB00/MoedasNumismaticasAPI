@@ -30,7 +30,7 @@ class ImportCoinInfoCommand extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
-        $caminho = __DIR__ . '/../../public/json/moedas_prices_uruguai.json';
+        $caminho = __DIR__ . '/../../public/json/moedas_prices.json';
 
         if (!file_exists($caminho)) {
             $output->writeln("<error>Arquivo não encontrado: $caminho</error>");

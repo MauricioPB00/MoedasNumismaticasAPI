@@ -32,7 +32,7 @@ class UpdateCoinInfoCommand extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
-        $caminho = __DIR__ . '/../../public/json/moedas_issues_uruguai.json';
+        $caminho = __DIR__ . '/../../public/json/moedas_issues.json';
 
         if (!file_exists($caminho)) {
             $output->writeln("<error>Arquivo não encontrado: $caminho</error>");

@@ -38,7 +38,7 @@ class ImportCoinsCommand extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
-        $jsonFile = __DIR__ . '/../../public/json/02_Uruguai.json';
+        $jsonFile = __DIR__ . '/../../public/json/moedas.json';
 
         if (!file_exists($jsonFile)) {
             $output->writeln('<error>Arquivo moedas.json não encontrado!</error>');
@@ -58,7 +58,7 @@ class ImportCoinsCommand extends Command
             $coin->setId($item['id']);
             $coin->setTitle($item['title'] ?? 'Sem título');
             $coin->setCategory($item['category'] ?? 'Desconhecida');
-            $coin->setIssuer('Uruguai');                                            // PAIS FIXO <----------------------
+            $coin->setIssuer('Bolivia');                                            // PAIS FIXO <----------------------
             $coin->setMinYear($item['min_year'] ?? null);
             $coin->setMaxYear($item['max_year'] ?? null);
             $coin->setObverse(isset($item['obverse_thumbnail']) ? $item['id'] . '_obverse.jpg' : 'SemFoto.png');
