@@ -11,6 +11,10 @@ use Symfony\Component\Console\Output\OutputInterface;
 # primeiro o import depois esse Update
 # php bin/console app:update-banknoteInfo
 
+// 04 
+
+// lembre de reodar sem o comentario depois
+
 class UpdateBanknoteInfoCommand extends Command
 {
     protected static $defaultName = 'app:update-banknoteInfo';
@@ -26,7 +30,7 @@ class UpdateBanknoteInfoCommand extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
-        $caminho = __DIR__ . '/../../public/json/cedulas/cedulas_issues.json';
+        $caminho = __DIR__ . '/../../public/json/cedulas_issues.json';
 
         if (!file_exists($caminho)) {
             $output->writeln("<error>Arquivo não encontrado: $caminho</error>");

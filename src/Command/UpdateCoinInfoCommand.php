@@ -13,6 +13,10 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 # Rodar depois para atualizar os gregorian_year ( la em baixo ( descomentar ))
 
+// 04 
+
+// lembre de reodar sem o comentario depois
+
 class UpdateCoinInfoCommand extends Command
 {
     protected static $defaultName = 'app:update-CoinInfo';

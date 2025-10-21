@@ -10,6 +10,8 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 // php bin/console app:import-coins-detailed
 
+// 02
+
 class ImportCoinsDetailedCommand extends Command
 {
     protected static $defaultName = 'app:import-coins-detailed';

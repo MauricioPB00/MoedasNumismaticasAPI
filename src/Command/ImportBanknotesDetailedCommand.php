@@ -10,6 +10,9 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 // php bin/console app:import-banknotes-detailed
 
+// 02
+
+
 class ImportBanknotesDetailedCommand extends Command
 {
     protected static $defaultName = 'app:import-banknotes-detailed';
@@ -28,7 +31,7 @@ class ImportBanknotesDetailedCommand extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
-        $jsonFile = __DIR__ . '/../../public/json/cedulas/cedulas_detalhadas.json';
+        $jsonFile = __DIR__ . '/../../public/json/cedulas_detalhadas.json';
 
         if (!file_exists($jsonFile)) {
             $output->writeln('<error>Arquivo cedulas.json não encontrado!</error>');

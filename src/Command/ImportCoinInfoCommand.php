@@ -9,6 +9,9 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
 #php bin/console app:import-coinInfo
+
+// 03
+
 # 1 import 2 Updade..
 # sao 3 acoes
 

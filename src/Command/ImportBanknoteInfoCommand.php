@@ -10,6 +10,12 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 #php bin/console app:import-banknoteInfo
 
+
+// 03
+
+# 1 import 2 Updade..
+# sao 3 acoes
+
 class ImportBanknoteInfoCommand extends Command
 {
     protected static $defaultName = 'app:import-banknoteInfo';
@@ -25,7 +31,7 @@ class ImportBanknoteInfoCommand extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
-        $caminho = __DIR__ . '/../../public/json/cedulas/cedulas_prices.json';
+        $caminho = __DIR__ . '/../../public/json/cedulas_prices.json';
 
         if (!file_exists($caminho)) {
             $output->writeln("<error>Arquivo não encontrado: $caminho</error>");
