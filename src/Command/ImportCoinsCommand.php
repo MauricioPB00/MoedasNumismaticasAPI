@@ -58,7 +58,7 @@ class ImportCoinsCommand extends Command
             $coin->setId($item['id']);
             $coin->setTitle($item['title'] ?? 'Sem título');
             $coin->setCategory($item['category'] ?? 'Desconhecida');
-            $coin->setIssuer('Bolivia');                                            // PAIS FIXO <----------------------
+            $coin->setIssuer('');                                            // PAIS FIXO <----------------------
             $coin->setMinYear($item['min_year'] ?? null);
             $coin->setMaxYear($item['max_year'] ?? null);
             $coin->setObverse(isset($item['obverse_thumbnail']) ? $item['id'] . '_obverse.jpg' : 'SemFoto.png');
