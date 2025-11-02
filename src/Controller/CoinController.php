@@ -117,10 +117,21 @@ class CoinController extends AbstractController
     /**
      * @Route("/coin/list/collection/pdf", name="coin_list_collection_pdf", methods={"GET"})
      */
-    public function coinListCollectionPdf(EntityManagerInterface $em): JsonResponse
+    public function coinListCollectionPdf(Request $request, EntityManagerInterface $em): JsonResponse
     {
-        $coins = $em->getRepository(Coin::class)->findAll();
-        $banknotes = $em->getRepository(Banknote::class)->findAll();
+        $issuer = $request->query->get('issuer');
+
+        $coinsQuery = $em->getRepository(Coin::class)->createQueryBuilder('c');
+        if ($issuer) {
+            $coinsQuery->andWhere('c.issuer = :issuer')->setParameter('issuer', $issuer);
+        }
+        $coins = $coinsQuery->getQuery()->getResult();
+
+        $banknotesQuery = $em->getRepository(Banknote::class)->createQueryBuilder('b');
+        if ($issuer) {
+            $banknotesQuery->andWhere('b.issuer = :issuer')->setParameter('issuer', $issuer);
+        }
+        $banknotes = $banknotesQuery->getQuery()->getResult();
 
         $coinData = array_map(function (Coin $coin) {
             return [
