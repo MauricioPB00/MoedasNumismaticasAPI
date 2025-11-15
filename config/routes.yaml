@@ -80,3 +80,18 @@ album_remove:
     path: /api/album/remove
     controller: App\Controller\AlbumController::removeCoin
     methods: POST
+
+advertising_get:
+    path: /api/advertising/buscar
+    controller: App\Controller\AdvertisingController::getAdvertising
+    methods: GET
+
+advertising_save:
+    path: /api/advertising
+    controller: App\Controller\AdvertisingController::saveAdvertising
+    methods: POST
+
+advertising_delete:
+    path: /api/advertising/delete
+    controller: App\Controller\AdvertisingController::deleteAdvertising
+    methods: POST

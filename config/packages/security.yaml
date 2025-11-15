@@ -61,6 +61,9 @@ security:
         - { path: ^/api/album/add, roles: IS_AUTHENTICATED_FULLY }
         - { path: ^/api/album/me, roles: IS_AUTHENTICATED_FULLY }
         - { path: ^/api/album/me/map, roles: IS_AUTHENTICATED_FULLY }
+        - { path: ^/api/advertising, roles: IS_AUTHENTICATED_FULLY }
+        - { path: ^/api/advertising/delete, roles: IS_AUTHENTICATED_FULLY }
+        - { path: ^/api/advertising/buscar, roles: IS_AUTHENTICATED_FULLY }
         - { path: ^/api/user, roles: ROLE_ADMIN }
         - { path: ^/api/profile, roles: IS_AUTHENTICATED_FULLY }
         - { path: ^/api/album/me/\d+, roles: IS_AUTHENTICATED_FULLY }
