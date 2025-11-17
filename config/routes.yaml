@@ -95,3 +95,14 @@ advertising_delete:
     path: /api/advertising/delete
     controller: App\Controller\AdvertisingController::deleteAdvertising
     methods: POST
+
+advertising_approve:
+  path: /api/advertising/aprovar/{id}
+  controller: App\Controller\AdvertisingController::approveAdvertising
+  methods: POST
+
+advertising_pending:
+    path: /api/advertising/pendentes
+    controller: App\Controller\AdvertisingController::getPendingAds
+    methods: GET
+

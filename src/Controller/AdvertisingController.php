@@ -182,4 +182,80 @@ class AdvertisingController extends AbstractController
             'message' => 'Banner removido com sucesso'
         ]);
     }
+
+
+    /**
+     * @Route("/advertising/pendentes", name="advertising_pending", methods={"GET"})
+     */
+    public function getPendingAds(
+        AdvertisingRepository $advRepo,
+        Security $security,
+        EntityManagerInterface $em
+    ): JsonResponse {
+
+        $userJwt = $security->getUser();
+        if (!$userJwt) {
+            return $this->json(['error' => 'Usuário não autenticado'], 401);
+        }
+
+        $user = $em->getRepository(User::class)
+            ->findOneBy(['email' => $userJwt->getUserIdentifier()]);
+
+        if (!$user) {
+            return $this->json(['error' => 'Usuário não encontrado'], 404);
+        }
+
+        $ads = $advRepo->findBy(['approved' => 1]);
+
+        $result = [];
+        foreach ($ads as $a) {
+            $result[] = [
+                'id'   => $a->getId(),
+                'url'  => $a->getUrl(),
+                'advertisingImg' => $a->getAdvertisingImg(),
+                'user' => [
+                    'id'    => $a->getUser()->getId(),
+                    'name'  => $a->getUser()->getName(),
+                    'email' => $a->getUser()->getEmail(),
+                ]
+            ];
+        }
+
+        return $this->json($result);
+    }
+
+    /**
+     * @Route("/advertising/aprovar/{id}", name="advertising_approve", methods={"POST"})
+     */
+    public function approveAdvertising(
+        int $id,
+        AdvertisingRepository $advRepo,
+        EntityManagerInterface $em,
+        Security $security
+    ): JsonResponse {
+
+        $userJwt = $security->getUser();
+        if (!$userJwt) {
+            return $this->json(['error' => 'Usuário não autenticado'], 401);
+        }
+
+        $user = $em->getRepository(User::class)
+            ->findOneBy(['email' => $userJwt->getUserIdentifier()]);
+
+        if (!$user) {
+            return $this->json(['error' => 'Usuário não encontrado'], 404);
+        }
+
+        $adv = $advRepo->find($id);
+        if (!$adv) {
+            return $this->json(['error' => 'Banner não encontrado'], 404);
+        }
+
+        $adv->setApproved(2);
+        $em->flush();
+
+        return $this->json([
+            'message' => 'Banner aprovado com sucesso!'
+        ]);
+    }
 }
