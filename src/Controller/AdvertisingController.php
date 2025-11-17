@@ -111,6 +111,7 @@ class AdvertisingController extends AbstractController
         $adv = new Advertising();
         $adv->setUser($user);
         $adv->setUrl($url);
+        $adv->setApproved(1);
         $adv->setAdvertisingImg($fileName);
         $adv->setCreatedAt(new \DateTimeImmutable());
 

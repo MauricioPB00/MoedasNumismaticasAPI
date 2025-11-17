@@ -41,6 +41,11 @@ class Advertising
      */
     private $advertisingImg;
 
+    /**
+     * @ORM\Column(type="string", length=5, nullable=true)
+    */
+    private $approved;
+
     public function __construct()
     {
         $this->createdAt = new \DateTimeImmutable();
@@ -92,6 +97,17 @@ class Advertising
     public function setAdvertisingImg(?string $advertisingImg): self
     {
         $this->advertisingImg = $advertisingImg;
+        return $this;
+    }
+
+    public function getApproved(): ?float
+    {
+        return $this->approved;
+    }
+
+    public function setApproved(?float $approved): self
+    {
+        $this->approved = $approved;
         return $this;
     }
 }
