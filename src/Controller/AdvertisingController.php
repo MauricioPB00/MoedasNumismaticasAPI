@@ -258,4 +258,24 @@ class AdvertisingController extends AbstractController
             'message' => 'Banner aprovado com sucesso!'
         ]);
     }
+
+    /**
+     * @Route("/advertising/aprovados", name="advertising_approved", methods={"GET"})
+     */
+    public function getApprovedAds(AdvertisingRepository $advRepo): JsonResponse
+    {
+        $ads = $advRepo->findBy(['approved' => 2]);
+
+        $result = [];
+
+        foreach ($ads as $a) {
+            $result[] = [
+                'id'  => $a->getId(),
+                'url' => $a->getUrl(),
+                'advertisingImg' => $a->getAdvertisingImg(),
+            ];
+        }
+
+        return new JsonResponse($result);
+    }
 }

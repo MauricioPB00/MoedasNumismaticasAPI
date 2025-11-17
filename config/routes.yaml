@@ -106,3 +106,7 @@ advertising_pending:
     controller: App\Controller\AdvertisingController::getPendingAds
     methods: GET
 
+advertising_approved:
+    path: /api/advertising/aprovados
+    controller: App\Controller\AdvertisingController::getApprovedAds
+    methods: GET
