@@ -110,3 +110,8 @@ advertising_approved:
     path: /api/advertising/aprovados
     controller: App\Controller\AdvertisingController::getApprovedAds
     methods: GET
+
+recognize_coin:
+    path: /api/recognize/coin
+    controller: App\Controller\RecognizeController::recognizeCoin
+    methods: POST
