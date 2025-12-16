@@ -58,6 +58,7 @@ security:
         - { path: ^/api/coin/list/collection/pdf, roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/api/coins/\d+, roles: IS_AUTHENTICATED_ANONYMOUSLY  }
         - { path: ^/api/advertising/aprovados, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/api/coins/\d+/saveinfo , roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/api/informacao, roles: IS_AUTHENTICATED_FULLY }
         - { path: ^/api/recognize/coin, roles: IS_AUTHENTICATED_FULLY }
         - { path: ^/api/album/add, roles: IS_AUTHENTICATED_FULLY }

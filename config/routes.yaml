@@ -115,3 +115,8 @@ recognize_coin:
     path: /api/recognize/coin
     controller: App\Controller\RecognizeController::recognizeCoin
     methods: POST
+
+coin_save_info:
+    path: /api/coins/{id}/saveinfo
+    controller: App\Controller\CoinsController::saveInfo
+    methods: POST

@@ -204,7 +204,7 @@ class AlbumController extends AbstractController
 
                 $unitPrice = $calculateUnitPrice($coinInfoArray, $item->getYear(), $item->getCondition());
                 if ($unitPrice !== null) {
-                    $unitPrice *= 7.5; 
+                    $unitPrice *= 1; 
                 }
                 $totalPrice = $unitPrice * $item->getQuantity();
 
@@ -245,7 +245,7 @@ class AlbumController extends AbstractController
 
                 $unitPrice = $calculateUnitPrice($bankInfoArray, $item->getYear(), $item->getCondition());
                 if ($unitPrice !== null) {
-                    $unitPrice *= 7.5;
+                    $unitPrice *= 1;
                 }
                 $totalPrice = $unitPrice * $item->getQuantity();
 

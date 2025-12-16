@@ -135,4 +135,66 @@ class CoinsController extends AbstractController
 
         return new JsonResponse($data);
     }
+
+    /**
+     * @Route("/coins/{id}/saveinfo", name="coin_save_info", methods={"POST"})
+     */
+    public function saveInfo(
+        int $id,
+        Request $request,
+        EntityManagerInterface $em
+    ): JsonResponse {
+        $data = json_decode($request->getContent(), true);
+
+        if (!$data) {
+            return new JsonResponse(['error' => 'JSON inválido'], 400);
+        }
+
+        // "coin" ou "banknote"
+        $type = $data['entityType'] ?? null;
+
+        if (!in_array($type, ['coin', 'banknote'])) {
+            return new JsonResponse(['error' => 'Tipo inválido'], 400);
+        }
+
+        // ENTIDADE CORRETA
+        $repo = $type === 'coin' ? CoinInfo::class : BanknoteInfo::class;
+
+        // EDITAR
+        if (!empty($data['id'])) {
+            $info = $em->getRepository($repo)->find($data['id']);
+
+            if (!$info) {
+                return new JsonResponse(['error' => 'Registro não encontrado'], 404);
+            }
+        } else {
+            // CRIAR
+            $info = new $repo();
+            $info->setTypeId($id);
+        }
+
+        // CAMPOS PADRÃO
+        $info->setYear($data['year_info'] ?? null);
+        $info->setMinYear(isset($data['min_year']) && $data['min_year'] !== '' ? intval($data['min_year']) : 0);
+        $info->setMaxYear(isset($data['max_year']) && $data['max_year'] !== '' ? intval($data['max_year']) : 0);
+        $info->setMintage(isset($data['mintage']) && $data['mintage'] !== '' ? intval($data['mintage']) : 0);
+        $info->setIssueId(isset($data['issue_id']) && $data['issue_id'] !== '' ? intval($data['issue_id']) : 0);
+
+        // PREÇOS (json)
+        if (isset($data['prices'])) {
+            $info->setPrices($data['prices']);
+        }
+
+        // SALVAR
+        $em->persist($info);
+        $em->flush();
+
+        return new JsonResponse([
+            'success' => true,
+            'id' => $info->getId(),
+            'message' => !empty($data['id'])
+                ? 'Informações atualizadas com sucesso!'
+                : 'Informações criadas com sucesso!'
+        ]);
+    }
 }
